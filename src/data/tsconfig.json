@@ -1,0 +1,5 @@
+[
+  { "id": "reproductology", "icon": "/icons/reproductology.svg" },
+  { "id": "urology", "icon": "/icons/urology.svg" },
+  { "id": "radiology", "icon": "/icons/radiology.svg" }
+]

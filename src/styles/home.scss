@@ -1,0 +1,53 @@
+//
+//.hero
+//  display: flex
+//  align-items: center
+//  justify-content: space-between
+//  gap: 40px
+//  margin-bottom: 80px
+//
+//  &__content
+//    flex: 1
+//    h1
+//      font-size: 42px
+//      font-weight: 700
+//      color: #24346D
+//      margin-bottom: 20px
+//    .subtitle
+//      font-size: 18px
+//      color: #555
+//      margin-bottom: 25px
+//    .cta
+//      background: #24346D
+//      color: #fff
+//      padding: 12px 30px
+//      border-radius: 30px
+//      border: none
+//      cursor: pointer
+//      font-size: 16px
+//      font-weight: 600
+//      transition: background 0.2s ease
+//      &:hover
+//        background: #1a2850
+//
+//  &__image
+//    flex: 1
+//    position: relative
+//    img
+//      width: 100%
+//      border-radius: 15px
+//    .hero__arrow
+//      position: absolute
+//      bottom: -20px
+//      right: -20px
+//      background: #24346D
+//      color: #fff
+//      border: none
+//      border-radius: 50%
+//      width: 60px
+//      height: 60px
+//      font-size: 24px
+//      cursor: pointer
+//      transition: background 0.2s ease
+//      &:hover
+//        background: #1a2850

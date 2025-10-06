@@ -1,0 +1,106 @@
+@use "sass:color";
+@use "./variables" as v;
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: v.$spacing-sm v.$spacing-lg;
+  border-radius: v.$radius-sm;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background-color v.$transition-fast ease,
+  color v.$transition-fast ease,
+  border-color v.$transition-fast ease;
+
+  &--primary {
+    background-color: v.$brand-blue;
+    color: v.$light;
+
+    &:hover {
+      background-color: color.adjust(v.$brand-blue, $lightness: -10%);
+    }
+  }
+
+  &--secondary {
+    background-color: v.$secondary;
+    color: v.$light;
+
+    &:hover {
+      background-color: color.adjust(v.$secondary, $lightness: -10%);
+    }
+  }
+
+  &--accent {
+    background-color: v.$accent;
+    color: v.$dark;
+
+    &:hover {
+      background-color: color.adjust(v.$accent, $lightness: -10%);
+    }
+  }
+
+  &--outline {
+    background: transparent;
+    border: 2px solid v.$brand-blue;
+    color: v.$brand-blue;
+
+    &:hover {
+      background: v.$brand-blue;
+      color: v.$light;
+    }
+  }
+
+  &--with-icon {
+    gap: 0.5rem;
+
+    .btn__icon {
+      display: inline-block;
+      transition: transform v.$transition-fast ease;
+    }
+
+    &:hover .btn__icon {
+      transform: translateX(4px);
+    }
+  }
+
+  /* 👉 read-more CTA հատուկ ոճ */
+  &--read-more {
+    margin-top: 1.5rem;
+    background: transparent;
+    border: 2px solid v.$brand-blue;
+    color: v.$brand-blue;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 15px;
+    align-self: flex-start;
+
+    .btn__icon {
+      background: v.$brand-blue;
+      color: #fff;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      transition: all 0.3s ease;
+    }
+
+    &:hover {
+      background: v.$brand-blue;
+      color: #fff;
+      border: none;
+
+      .btn__icon {
+        background: #fff;
+        color: v.$brand-blue;
+        transform: translateX(3px);
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@use "./variables" as v;
+
+.clinic-section {
+  display: flex;
+  justify-content: center;
+  padding: v.$spacing-xl 0;
+  margin-top: 100px;
+
+  &__container {
+    padding: 70px v.$layout-padding-x;
+    background: v.$bg-alt;
+    border-radius: v.$radius-lg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: v.$spacing-md * 5.5;
+  }
+
+  .clinic-card img {
+    width: 380px;
+    height: 420px;
+  }
+}

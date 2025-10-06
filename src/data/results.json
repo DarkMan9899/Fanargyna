@@ -1,0 +1,17 @@
+[
+  {
+    "id": "story1",
+    "image": "subtract",
+    "stats": { "story": 500, "clients": 600, "results": 50, "awards": 78 }
+  },
+  {
+    "id": "story2",
+    "image": "subtract",
+    "stats": { "story": 530, "clients": 750, "results": 70, "awards": 95 }
+  },
+  {
+    "id": "story3",
+    "image": "subtract",
+    "stats": { "story": 490, "clients": 520, "results": 45, "awards": 60 }
+  }
+]

@@ -1,0 +1,20 @@
+@import "variables";
+
+.layout-container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding-left: $layout-padding-x;
+  padding-right: $layout-padding-x;
+  background: $bg-gray;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: $radius-lg;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+  main {
+    flex: 1;
+    padding-top: $spacing-lg;
+    padding-bottom: $spacing-lg;
+}
+}

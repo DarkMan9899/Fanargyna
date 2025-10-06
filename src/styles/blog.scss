@@ -1,0 +1,206 @@
+@use "sass:color";
+@use "variables" as v;
+
+
+/* 🔹 Blog Section */
+.blog-section {
+  max-width: v.$max-width;
+  margin: 0 auto;
+  padding: v.$spacing-xl 0;
+  background: v.$bg-light;
+  text-align: center;
+
+  .blog-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: v.$brand-blue;
+    margin-bottom: v.$spacing-lg;
+  }
+
+  /* 🔹 Cards container (3 in a row) */
+  .blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 6rem;
+    flex-wrap: wrap;
+  }
+
+  /* 🔹 Blog Card */
+  .blog-card {
+    width: 350px;
+    height: 490px;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+    }
+
+    &__content {
+      flex: 1;
+      padding: 1.5rem;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      /* 🔸 Date + Time (top-right) */
+      .blog-card__meta {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+        font-size: 0.85rem;
+        color: v.$gray;
+        margin-bottom: 0.5rem;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: v.$brand-blue;
+        margin-bottom: 0.8rem;
+      }
+
+      /* ✅ Inline paragraph + Read more */
+      p {
+        font-size: 0.95rem;
+        color: v.$text-muted;
+        line-height: 1.6;
+        margin-bottom: 0;
+        display: inline; /* inline text */
+      }
+
+      .read-more {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: none;
+        border: none;
+        color: v.$brand-blue;
+        font-weight: 600;
+        font-size: 0.95rem;
+        cursor: pointer;
+        padding: 0;
+        margin-left: 6px; /* small spacing from text */
+        transition: color 0.3s ease;
+        position: relative;
+        top: 1px;
+
+        &__icon {
+          font-size: 1.1rem;
+          transition: transform 0.3s ease;
+        }
+
+        &:hover {
+          color: color.scale(v.$brand-blue, $lightness: -10%);
+        }
+
+        &:hover .read-more__icon {
+          transform: translateX(4px);
+        }
+      }
+    }
+  }
+}
+
+/* 🔹 Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+/* 🔹 Modal Window */
+.modal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem 2.5rem;
+  max-width: 600px;
+  width: 90%;
+  text-align: left;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  animation: slideIn 0.3s ease;
+
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: v.$brand-blue;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: v.$dark;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: v.$brand-blue;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+/* 🔹 Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🔹 Responsive */
+@media (max-width: 992px) {
+  .blog-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-card {
+    width: 90%;
+  }
+}

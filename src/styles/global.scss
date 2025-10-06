@@ -1,0 +1,11 @@
+@use "sass:color";
+@use "./variables" as v;
+@use "./mixins";
+@use "./buttons";
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: v.$bg-light;
+  color: v.$dark;
+  line-height: 1.6;
+}

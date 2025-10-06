@@ -1,0 +1,38 @@
+// 1. Utilities
+@use "./variables" as v;
+@use "./mixins";
+
+// 2. Base / Components
+@use "./buttons";
+@use "./navbar";
+@use "./footer";
+@use "./herocetion";
+@use "services";
+@use "./layout";
+@use "./results";
+@use "./features";
+@use "./blog";
+
+// 3. Global resets & defaults
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: v.$bg-light;
+  color: v.$dark;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin: 0;
+}

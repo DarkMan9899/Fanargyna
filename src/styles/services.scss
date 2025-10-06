@@ -1,0 +1,168 @@
+.services {
+  --main-color: #24346D;
+  --page-bg: #f5f6f9;
+
+  text-align: center;
+  padding: 5rem  0 0;
+  position: relative;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+    color: var(--main-color);
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1260px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /* 🔥 Սլաքները միասին ձախ ներքևում */
+  .arrows {
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .arrow {
+    background: #fff;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: var(--main-color);
+      color: #fff;
+    }
+  }
+
+  /* Քարտեր */
+  .card {
+    position: relative;
+    width: 390px;
+    height: 430px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 110px 1.5rem 2rem;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+
+    &__badge {
+      position: absolute;
+      top: -55px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: #fff;
+      border: 2px solid var(--main-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+
+      img {
+        width: 50px;
+        height: 50px;
+        filter: none;
+        transition: all 0.3s ease;
+      }
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      flex-grow: 1;
+      text-align: center;
+    }
+
+    .read-more {
+      width: 280px;
+      height: 50px;
+      border: 2px solid var(--main-color);
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &__icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: var(--main-color);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease;
+      }
+
+      &:hover .read-more__icon {
+        transform: translateX(-6px);
+      }
+    }
+
+    &:hover {
+      background: var(--main-color);
+      color: #fff;
+
+      h3, p {
+        color: #fff;
+      }
+
+      .card__badge {
+        background: var(--main-color);
+        border-color: #fff;
+
+        img {
+          filter: brightness(0) invert(1);
+        }
+      }
+
+      .read-more {
+        border-color: #fff;
+        color: var(--main-color);
+        background: #fff;
+
+        &__icon {
+          background: var(--main-color);
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "services": "Services",
+  "pricelist": "Pricelist",
+  "blog": "Blog",
+  "contact": "Contact Us",
+
+
+  "hero": {
+    "hero_title": "With you in the most difficult moments",
+    "hero_subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "hero_text": "We offer high-quality medical care with modern and patient-centered approaches.",
+    "hero2_title": "Caring for your health",
+    "hero2_subtitle": "Professional staff",
+    "hero2_text": "We provide top medical services, combining expertise and modern technology.",
+    "hero_cta": "Read more"
+  },
+
+  "services_section": {
+    "title": "Our Services",
+    "readMore": "Read More",
+
+    "reproductology": {
+      "title": "Reproductology",
+      "desc": "Reproductology focuses on the diagnosis and treatment of infertility, reproductive system disorders, and related conditions."
+    },
+    "urology": {
+      "title": "Urology",
+      "desc": "Urology deals with diseases of the urinary tract system and the male reproductive organs."
+    },
+    "radiology": {
+      "title": "Radiology",
+      "desc": "Radiology uses medical imaging technologies such as X-ray, MRI, and ultrasound to diagnose and treat diseases."
+    }
+
+  },
+  "clinic": {
+    "subtitle": "By your side in the hardest moments",
+    "title": "Fanarjyan Clinic",
+    "text": "Lorem ipsum is a placeholder text commonly used in printing and typesetting industry...",
+    "button": "Read more",
+    "label": "FANARJYAN CLINIC\nWITH YOU in the hardest moments"
+  },
+
+
+  "results_section": {
+    "title": "Our Results",
+    "read_more": "Read More",
+    "stats": {
+      "story": "Stories",
+      "clients": "Clients",
+      "results": "Results",
+      "awards": "Awards"
+    },
+    "stories": {
+      "story1": {
+        "title": "Story 1",
+        "modalText": "This is the detailed version of the first story."
+      },
+      "story2": {
+        "title": "Story 2",
+        "modalText": "This story describes the patient's recovery process."
+      },
+      "story3": {
+        "title": "Story 3",
+        "modalText": "The third story presents the successful treatment results."
+      }
+    }
+  },
+
+
+
+  "features_section": {
+    "slides": {
+      "feature1": {
+        "title": "Feature 1",
+        "text": "Fanarjyan Clinic applies innovative methods and technologies ensuring top-quality healthcare."
+      },
+      "feature2": {
+        "title": "Feature 2",
+        "text": "We prioritize patient comfort and a personalized approach to every case."
+      },
+      "feature3": {
+        "title": "Feature 3",
+        "text": "Our highly qualified specialists are always ready to provide support."
+      }
+    }
+  },
+  "services_cta": {
+    "title": "Learn more about our services"
+  },
+
+
+  "blog_section": {
+    "title": "Blog",
+    "read_more": "Read More",
+    "overlay_text": "FANARJYAN CLINIC",
+    "posts": {
+      "post1": {
+        "title": "Medical Innovations in 2025",
+        "text": "This article explores how modern technology is transforming healthcare and improving patient outcomes.",
+        "modalText": "A detailed look at innovations shaping the future of medicine and enhancing treatment quality."
+      },
+      "post2": {
+        "title": "New Approaches in Surgery",
+        "text": "Fanarjyan Clinic continues to implement advanced surgical techniques in its daily practice.",
+        "modalText": "Discover the latest minimally invasive surgery methods that significantly reduce recovery time."
+      },
+      "post3": {
+        "title": "Women’s Health as a Priority",
+        "text": "Our specialists are dedicated to preventing and treating women’s health issues with care and expertise.",
+        "modalText": "Thanks to experienced doctors and modern technology, we provide top-quality care to every patient."
+      }
+    }
+  }
+
+
+}
+

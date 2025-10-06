@@ -1,0 +1,20 @@
+[
+  {
+    "id": "feature1",
+    "image": "surgery",
+    "titleKey": "features_section.slides.feature1.title",
+    "textKey": "features_section.slides.feature1.text"
+  },
+  {
+    "id": "feature2",
+    "image": "surgery",
+    "titleKey": "features_section.slides.feature2.title",
+    "textKey": "features_section.slides.feature2.text"
+  },
+  {
+    "id": "feature3",
+    "image": "surgery",
+    "titleKey": "features_section.slides.feature3.title",
+    "textKey": "features_section.slides.feature3.text"
+  }
+]
