@@ -1,20 +1,27 @@
 [
   {
     "id": "feature1",
-    "image": "surgery",
+    "image": "fanarjian",
     "titleKey": "features_section.slides.feature1.title",
     "textKey": "features_section.slides.feature1.text"
   },
-  {
-    "id": "feature2",
-    "image": "surgery",
-    "titleKey": "features_section.slides.feature2.title",
-    "textKey": "features_section.slides.feature2.text"
-  },
+
   {
     "id": "feature3",
-    "image": "surgery",
+    "image": "xumb",
     "titleKey": "features_section.slides.feature3.title",
     "textKey": "features_section.slides.feature3.text"
+  },
+  {
+    "id": "feature4",
+    "image": "tsri",
+    "titleKey": "features_section.slides.feature4.title",
+    "textKey": "features_section.slides.feature4.text"
+  },
+  {
+    "id": "feature5",
+    "image": "fan",
+    "titleKey": "features_section.slides.feature5.title",
+    "textKey": "features_section.slides.feature5.text"
   }
 ]

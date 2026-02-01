@@ -1,11 +1,13 @@
 import {useTranslation} from "react-i18next";
-import "../styles/home.scss";
-import HeroSection from "../section/HeroSection";
-import ServicesSection from "../section/ServicesSection";
-import ClinicSection from "../section/ClinicSection";
-import Results from "../section/ResultsSection";
-import FeaturesBlock from "../section/FeaturesBlock";
-import BlogSection from "../section/BlogSection";
+import "../styles/styleHomePage/home.scss";
+import HeroSection from "../sectionHomPage/HeroSection";
+import ServicesSection from "../sectionHomPage/ServicesSection";
+import ClinicSection from "../sectionHomPage/ClinicSection";
+import Results from "../sectionHomPage/ResultsSection";
+import FeaturesBlock from "../sectionHomPage/FeaturesBlock";
+import BlogSection from "../sectionHomPage/BlogSection";
+import ContactSection from "../sectionHomPage/ContactSection";
+import FAQSection from "../sectionHomPage/FAQSection";
 
 export default function Home() {
     const {t} = useTranslation();
@@ -19,6 +21,8 @@ export default function Home() {
                 <Results/>
                 <FeaturesBlock/>
                 <BlogSection/>
+                <FAQSection/>
+                <ContactSection/>
             </main>
         </div>
 

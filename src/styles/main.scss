@@ -1,19 +1,22 @@
 // 1. Utilities
 @use "./variables" as v;
-@use "./mixins";
+@use "./mixins" as m;
 
 // 2. Base / Components
 @use "./buttons";
-@use "./navbar";
-@use "./footer";
-@use "./herocetion";
-@use "services";
 @use "./layout";
-@use "./results";
-@use "./features";
-@use "./blog";
+@use "./footer";
 
-// 3. Global resets & defaults
+// 3. Pages / Sections
+@use "styleHomePage/navbar";
+@use "styleHomePage/heroSection";
+@use "styleHomePage/services";
+@use "styleHomePage/results";
+@use "styleHomePage/features";
+@use "styleHomePage/blog";
+@use "styleHomePage/contact";
+
+// 4. Global
 * {
   margin: 0;
   padding: 0;

@@ -1,11 +1,17 @@
-@use "sass:color";
 @use "./variables" as v;
-@use "./mixins";
-@use "./buttons";
+
+html {
+  overflow-y: scroll; // ✅ պարտադրում ենք մշտական scrollbar
+}
 
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: v.$font-base;
   background: v.$bg-light;
   color: v.$dark;
   line-height: 1.6;
+}
+
+.text-with-breaks {
+  white-space: pre-line;
+  text-align: left;
 }

@@ -1,6 +1,19 @@
-import { useTranslation } from "react-i18next";
+import AboutHero from "../sectionAboutUs/AboutHero";
+import AboutClinic from "../sectionAboutUs/AboutClinic";
+import AboutDoctor from "../sectionAboutUs/AboutDoctor";
+import AboutValues from "../sectionAboutUs/AboutValues";
+import Staff from "../sectionAboutUs/Staff";
 
-export default function About() {
-    const { t } = useTranslation();
-    return <h2>{t("about")}</h2>;
-}
+const About = () => {
+    return (
+        <>
+            <AboutHero />
+            <AboutClinic />
+            <AboutDoctor />
+            <AboutValues/>
+            <Staff/>
+        </>
+    );
+};
+
+export default About;

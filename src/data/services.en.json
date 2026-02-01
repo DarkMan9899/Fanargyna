@@ -1,0 +1,408 @@
+{
+  "tabs": [
+    {
+      "id": "female-infertility",
+      "title": "Female Infertility",
+      "icon": "female",
+      "menu": [
+        { "id": "fi-intro", "label": "Introduction" },
+        { "id": "fi-diagnosis", "label": "When is infertility diagnosed" },
+        { "id": "fi-secondary", "label": "Secondary infertility" },
+        { "id": "fi-causes", "label": "Causes" },
+        { "id": "fi-why", "label": "Why seek a specialist" },
+        { "id": "fi-offers", "label": "Clinic offers" },
+        { "id": "fi-ending", "label": "Conclusion" }
+      ],
+      "content": [
+        {
+          "id": "fi-intro",
+          "type": "paragraphs",
+          "title": "Female Infertility",
+          "text": [
+            "For a woman, one of the most important and emotionally meaningful feelings is motherhood. However, sometimes on this path, women face obstacles that may lead to female infertility."
+          ]
+        },
+        {
+          "id": "fi-diagnosis",
+          "type": "paragraphs",
+          "title": "When is infertility diagnosed",
+          "text": [
+            "Infertility is diagnosed after 12 months, or after the age of 35 — after 6 months of regular unprotected sexual intercourse, if pregnancy does not occur. This is the primary sign for the couple to seek help from specialists."
+          ]
+        },
+        {
+          "id": "fi-secondary",
+          "type": "paragraphs",
+          "title": "Secondary infertility",
+          "text": [
+            "Secondary infertility in women is the absence of pregnancy during regular sexual life after previous childbirth, miscarriage, termination of pregnancy, or ectopic pregnancy.",
+            "Women should consult gynecologists–reproductologists, and men should consult urologists–andrologists."
+          ]
+        },
+        {
+          "id": "fi-causes",
+          "type": "list",
+          "title": "Female infertility may have many causes",
+          "items": [
+            "Hormonal disorders,",
+            "Ovulation disorders,",
+            "Fallopian tube pathologies,",
+            "Endometriosis,",
+            "Polycystic ovary syndrome (PCOS),",
+            "Uterine pathologies,",
+            "Immunological or genetic factors,",
+            "Age and decreased ovarian reserve, etc."
+          ]
+        },
+        {
+          "id": "fi-why",
+          "type": "paragraphs",
+          "title": "Why it is important to seek specialists on time",
+          "text": [
+            "Because the cause may be multifactorial, and identifying it requires comprehensive diagnostics.",
+            "Many issues, when detected early, can be successfully treated through hormonal restoration, minimally invasive surgery, antiviral therapy, and other methods.",
+            "Psychological support and proper awareness can prevent worsening of the condition.",
+            "We develop an individualized strategy based on your history, age, hormonal condition, and many other factors."
+          ]
+        },
+        {
+          "id": "fi-offers",
+          "type": "list",
+          "title": "Fanarjyan Clinic offers:",
+          "items": [
+            "Complete diagnostics,",
+            "Conservative treatment methods with the possibility of natural conception (without assisted reproductive technologies such as IVF, ICSI),",
+            "Psychological support aimed at reducing stress and increasing treatment success,",
+            "Nutritional, dietary, and lifestyle consultations,",
+            "Strict medical confidentiality — direct communication with a specialist, all medical data stored in a secure system."
+          ]
+        },
+        {
+          "id": "fi-ending",
+          "type": "paragraphs",
+          "title": "",
+          "text": [
+            "Every woman facing infertility deserves not only medical assistance but also emotional support, a personalized and human-centered approach throughout the entire treatment process. The team of skilled specialists at Fanarjyan Clinic is ready to stand by your side and help make your long-awaited dream come true.",
+            "Our success is measured by the emotions of happy families.",
+            "Fanarjyan Clinic — with you in the most difficult moments."
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "male-infertility",
+      "title": "Male Infertility",
+      "icon": "male",
+      "menu": [
+        { "id": "mi-intro", "label": "Introduction" },
+        { "id": "mi-diagnosis", "label": "When is infertility diagnosed" },
+        { "id": "mi-secondary", "label": "Secondary infertility" },
+        { "id": "mi-causes", "label": "Main causes" },
+        { "id": "mi-why", "label": "Why seek help" },
+        { "id": "mi-offers", "label": "Clinic offers" },
+        { "id": "mi-ending", "label": "Conclusion" }
+      ],
+      "content": [
+        {
+          "id": "mi-intro",
+          "type": "paragraphs",
+          "title": "Male Infertility",
+          "text": [
+            "In recent years, reproductive health specialists have noticed a disturbing trend: male factors are increasingly becoming the cause of infertility in couples. Previously infertility was considered primarily a female problem, but global statistics show that about 50% or more of infertility cases are related to male reproductive health.",
+            "Therefore, if pregnancy does not occur, it is important for both partners to undergo examination, because infertility is a problem of the couple.",
+            "Sometimes examining the man becomes the key to solving the problem, and an informed approach can be the first step toward the joy of parenthood."
+          ]
+        },
+        {
+          "id": "mi-diagnosis",
+          "type": "paragraphs",
+          "title": "When is infertility diagnosed",
+          "text": [
+            "Infertility is diagnosed after 12 months, or after the age of 35 — after 6 months of regular unprotected sexual intercourse with no pregnancy.",
+            "Women should consult gynecologists–reproductologists, and men — urologists–andrologists."
+          ]
+        },
+        {
+          "id": "mi-secondary",
+          "type": "paragraphs",
+          "title": "Secondary infertility",
+          "text": [
+            "Secondary infertility in men is diagnosed when, after a previous pregnancy, conception does not occur for a prolonged period.",
+            "Male infertility may develop without noticeable symptoms, and a semen analysis can immediately answer many questions."
+          ]
+        },
+        {
+          "id": "mi-causes",
+          "type": "list",
+          "title": "Main causes of male infertility",
+          "items": [
+            "Spermatogenesis disorders (low sperm count or motility),",
+            "Varicocele (enlargement of veins of the spermatic cord),",
+            "Hormonal disorders,",
+            "Infections (STIs) and inflammatory processes,",
+            "Genetic and immunological factors,",
+            "Injuries, surgeries,",
+            "Stress,",
+            "Harmful habits and toxic exposure,",
+            "Age-related changes,",
+            "Erectile dysfunction."
+          ]
+        },
+        {
+          "id": "mi-why",
+          "type": "paragraphs",
+          "title": "Why it is important to consult an urologist-andrologist",
+          "text": [
+            "By ruling out male-factor infertility early, you can avoid losing precious time and focus on the real cause, because time may play a key role.",
+            "If male infertility is diagnosed, the specialist who possesses the necessary skills and knowledge for effective treatment is an urologist–andrologist, who is specifically trained in male infertility.",
+            "*An andrologist is a specialist dealing with men's reproductive and urological health."
+          ]
+        },
+        {
+          "id": "mi-offers",
+          "type": "list",
+          "title": "Fanarjyan Clinic offers:",
+          "items": [
+            "Comprehensive diagnostics of male infertility,",
+            "Individual treatment programs aimed at restoring natural fertility,",
+            "Varicocele treatment using the Marmar technique with minimal recurrence,",
+            "Surgical treatment of azoospermia with modern minimally invasive methods, including stem cell therapy,",
+            "Psychological support for couples before and during treatment,",
+            "Nutrition consultations aimed at improving sperm quality,",
+            "Strict medical confidentiality — direct contact with the specialist, secure medical data storage."
+          ]
+        },
+        {
+          "id": "mi-ending",
+          "type": "paragraphs",
+          "title": "",
+          "text": [
+            "The team of Fanarjyan Clinic, led by the head of the clinic, David Fanarjyan (PhD in Medical Sciences), includes experienced urologists, andrologists, and reproductive specialists ready to do everything possible for you to experience the joy of parenthood.",
+            "Our success is measured by the emotions of happy families.",
+            "Fanarjyan Clinic — with you in the most difficult moments."
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "urology-andrology",
+      "title": "Urology – Andrology",
+      "icon": "urology",
+      "menu": [
+        { "id": "ua-urology", "label": "Urology" },
+        { "id": "ua-when-urologist", "label": "When to see a urologist" },
+        { "id": "ua-andrology", "label": "Andrology" },
+        { "id": "ua-when-andrologist", "label": "When to see an andrologist" },
+        { "id": "ua-services", "label": "Services" },
+        { "id": "ua-why", "label": "Why Fanarjyan Clinic" },
+        { "id": "ua-ending", "label": "Conclusion" }
+      ],
+      "content": [
+        {
+          "id": "ua-urology",
+          "type": "paragraphs",
+          "title": "Urology",
+          "text": [
+            "The health of the genitourinary system is an essential part of overall well-being, confidence, and quality of life for both women and men. The urology department of Fanarjyan Clinic offers not only treatment of genitourinary diseases but also a comprehensive approach to diagnosing, preventing, and restoring men’s health.",
+            "Most men seek help when symptoms become more pronounced. However, early diagnosis helps avoid complications and preserve strong health."
+          ]
+        },
+        {
+          "id": "ua-when-urologist",
+          "type": "list",
+          "title": "When to see a urologist",
+          "items": [
+            "Pain, burning, or discomfort during urination,",
+            "Frequent urination, especially at night,",
+            "Pain in the lower back or abdomen,",
+            "Blood in urine or semen,",
+            "Inflammatory processes or infections of the genitourinary system,",
+            "Varicocele (enlargement of veins of the spermatic cord)."
+          ]
+        },
+        {
+          "id": "ua-andrology",
+          "type": "paragraphs",
+          "title": "Andrology",
+          "text": [
+            "Andrology is a field of urology dedicated to men’s health — from reproductive function to hormonal disorders and sexual health.",
+            "At Fanarjyan Clinic, andrology combines modern diagnostics, individualized treatment, and attentive, sensitive care for every patient."
+          ]
+        },
+        {
+          "id": "ua-when-andrologist",
+          "type": "list",
+          "title": "When to see an urologist–andrologist",
+          "items": [
+            "Reduced libido or erectile dysfunction,",
+            "Male infertility,",
+            "Hormonal disorders,",
+            "Pain, heaviness, or discomfort in the testicles,",
+            "Preventive check-ups, especially after 35–40 years of age."
+          ]
+        },
+        {
+          "id": "ua-services",
+          "type": "list",
+          "title": "Services offered by the urology–andrology department",
+          "items": [
+            "Diagnosis and treatment of genitourinary infections (cystitis, urethritis, etc.),",
+            "Prevention and treatment of prostate adenoma, prostatitis, and erectile dysfunction,",
+            "Surgical treatment of urological diseases (including varicocele, hydrocele, and phimosis),",
+            "Diagnosis of male infertility and restoration of reproductive function."
+          ]
+        },
+        {
+          "id": "ua-why",
+          "type": "list",
+          "title": "Why Fanarjyan Clinic",
+          "items": [
+            "A team led by the head of the clinic, Dr. David Fanarjyan (urologist-andrologist, PhD),",
+            "Urologists and andrologists with more than 25 years of experience,",
+            "Minimally invasive treatment methods with short recovery time,",
+            "Strict medical confidentiality — direct communication with the specialist, secure storage of medical data."
+          ]
+        },
+        {
+          "id": "ua-ending",
+          "type": "paragraphs",
+          "title": "",
+          "text": [
+            "Problems of the genitourinary system and men’s health require a strict and responsible approach, as ignoring them may lead to infertility, acute infections, and other complications.",
+            "Fanarjyan Clinic — with you in the most difficult moments."
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "gynecology",
+      "title": "Gynecology",
+      "icon": "gynecology",
+      "menu": [
+        { "id": "gyn-intro", "label": "Introduction" },
+        { "id": "gyn-when", "label": "When to see a gynecologist" },
+        { "id": "gyn-services", "label": "Services" },
+        { "id": "gyn-why", "label": "Why Fanarjyan Clinic" },
+        { "id": "gyn-ending", "label": "Conclusion" }
+      ],
+      "content": [
+        {
+          "id": "gyn-intro",
+          "type": "paragraphs",
+          "title": "Gynecology",
+          "text": [
+            "Women’s health is the foundation of harmony, self-confidence, and a strong family. At the gynecology department of Fanarjyan Clinic, every patient receives attentive care, high-quality medical services, and an individualized approach.",
+            "Modern women live in constant motion — work, stress, emotional strain. All this affects hormonal balance, menstrual cycle, and reproductive health. Therefore, regular preventive visits to a gynecologist are not only recommended but essential."
+          ]
+        },
+        {
+          "id": "gyn-when",
+          "type": "list",
+          "title": "When to see a gynecologist",
+          "items": [
+            "Menstrual cycle disorders, pain,",
+            "Lower abdominal pain,",
+            "Discomfort during intercourse or traces of blood afterward,",
+            "Unusual vaginal discharge — yellow, greenish, white, or cottage-cheese-like,",
+            "Inflammatory processes or infections,",
+            "Pregnancy planning and preparation,",
+            "Menopause and hormonal changes,",
+            "Preventive check-up at least once a year."
+          ]
+        },
+        {
+          "id": "gyn-services",
+          "type": "list",
+          "title": "Services offered by the gynecology department",
+          "items": [
+            "Examination and diagnosis of gynecological diseases,",
+            "Treatment of inflammatory processes, cervical erosion, endometriosis, fibroids, cysts, and other pathologies,",
+            "Hormonal correction of menstrual and menopausal disorders,",
+            "Restoration of reproductive health, diagnosis and treatment of female infertility,",
+            "Consultations on contraception, pregnancy, and breast health."
+          ]
+        },
+        {
+          "id": "gyn-why",
+          "type": "list",
+          "title": "Why Fanarjyan Clinic",
+          "items": [
+            "Gynecologists and reproductologists with more than 25 years of experience, regularly trained abroad,",
+            "Fast and competent solutions to gynecological problems,",
+            "Individualized approach based on the woman’s age, medical history, and personal preferences,",
+            "Respectful and supportive medical staff,",
+            "Strict medical confidentiality and secure data storage."
+          ]
+        },
+        {
+          "id": "gyn-ending",
+          "type": "paragraphs",
+          "title": "",
+          "text": [
+            "The team of Fanarjyan Clinic is ready to be a reliable partner, ensuring strong women’s health at every stage of life.",
+            "Fanarjyan Clinic — with you in the most difficult moments."
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "radiology",
+      "title": "Radiology (Ultrasound Imaging)",
+      "icon": "radiology",
+      "menu": [
+        { "id": "rad-intro", "label": "Introduction" },
+        { "id": "rad-when", "label": "When ultrasound is needed" },
+        { "id": "rad-benefits", "label": "Advantages" },
+        { "id": "rad-ending", "label": "Conclusion" }
+      ],
+      "content": [
+        {
+          "id": "rad-intro",
+          "type": "paragraphs",
+          "title": "Radiology (Ultrasound Imaging)",
+          "text": [
+            "Proper treatment is impossible without accurate diagnostics. Ultrasound imaging is a safe, painless, and informative method that helps detect diseases early and evaluate the condition of internal organs.",
+            "The ultrasound diagnostics department at Fanarjyan Clinic is equipped with modern premium-class ultrasound systems, ensuring high precision required for correct diagnosis."
+          ]
+        },
+        {
+          "id": "rad-when",
+          "type": "list",
+          "title": "When you should undergo ultrasound",
+          "items": [
+            "For routine check-ups,",
+            "In case of pain in the lower abdomen, back, chest, or other organs,",
+            "For menstrual cycle disorders,",
+            "In cases of female or male infertility,",
+            "For follow-up after surgery or treatment,",
+            "If inflammation, cysts, fibroids, or polyps are suspected,",
+            "To evaluate the function of kidneys, liver, thyroid gland, heart, and other organs."
+          ]
+        },
+        {
+          "id": "rad-benefits",
+          "type": "list",
+          "title": "Advantages of ultrasound at Fanarjyan Clinic",
+          "items": [
+            "Modern premium-class equipment,",
+            "Experienced radiologists and sonographers specializing in different medical fields,",
+            "Highly accurate examinations and reliable interpretations,",
+            "Comfortable conditions for all visitors."
+          ]
+        },
+        {
+          "id": "rad-ending",
+          "type": "paragraphs",
+          "title": "",
+          "text": [
+            "Fanarjyan Clinic — with you in the most difficult moments."
+          ]
+        }
+      ]
+    }
+  ]
+}

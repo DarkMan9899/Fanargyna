@@ -4,22 +4,30 @@
 .btn {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: v.$spacing-sm;
   padding: v.$spacing-sm v.$spacing-lg;
   border-radius: v.$radius-sm;
   font-weight: 600;
   cursor: pointer;
-  border: none;
-  transition: background-color v.$transition-fast ease,
-  color v.$transition-fast ease,
-  border-color v.$transition-fast ease;
+  border: 2px solid transparent;
+  background: transparent;
+  transition:
+          background-color v.$transition-fast ease,
+          color v.$transition-fast ease,
+          border-color v.$transition-fast ease,
+          transform v.$transition-fast ease;
+
+  /* ============================
+     VARIANTS
+  ============================ */
 
   &--primary {
     background-color: v.$brand-blue;
     color: v.$light;
 
     &:hover {
-      background-color: color.adjust(v.$brand-blue, $lightness: -10%);
+      background-color: color.adjust(v.$brand-blue, $lightness: -8%);
     }
   }
 
@@ -28,7 +36,7 @@
     color: v.$light;
 
     &:hover {
-      background-color: color.adjust(v.$secondary, $lightness: -10%);
+      background-color: color.adjust(v.$secondary, $lightness: -8%);
     }
   }
 
@@ -37,26 +45,29 @@
     color: v.$dark;
 
     &:hover {
-      background-color: color.adjust(v.$accent, $lightness: -10%);
+      background-color: color.adjust(v.$accent, $lightness: -8%);
     }
   }
 
   &--outline {
-    background: transparent;
-    border: 2px solid v.$brand-blue;
+    border-color: v.$brand-blue;
     color: v.$brand-blue;
 
     &:hover {
-      background: v.$brand-blue;
+      background-color: v.$brand-blue;
       color: v.$light;
     }
   }
 
-  &--with-icon {
-    gap: 0.5rem;
+  /* ============================
+     ICON SUPPORT
+  ============================ */
 
+  &--with-icon {
     .btn__icon {
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       transition: transform v.$transition-fast ease;
     }
 
@@ -65,41 +76,35 @@
     }
   }
 
-  /* 👉 read-more CTA հատուկ ոճ */
+  /* ============================
+     READ MORE CTA
+  ============================ */
+
   &--read-more {
-    margin-top: 1.5rem;
-    background: transparent;
-    border: 2px solid v.$brand-blue;
+    margin-top: v.$spacing-lg;
+    border-color: v.$brand-blue;
     color: v.$brand-blue;
-    padding: 12px 24px;
-    border-radius: 30px;
-    font-size: 16px;
-    font-weight: 600;
-    gap: 15px;
-    align-self: flex-start;
+    padding: v.$spacing-sm v.$spacing-lg;
+    border-radius: v.$radius-round;
+    font-size: 1rem;
+    min-width: 220px;
 
     .btn__icon {
       background: v.$brand-blue;
-      color: #fff;
+      color: v.$light;
       width: 32px;
       height: 32px;
       border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-      transition: all 0.3s ease;
+      font-size: 1rem;
+      font-weight: 700;
     }
 
     &:hover {
-      background: v.$brand-blue;
-      color: #fff;
-      border: none;
+      background-color: v.$brand-blue;
+      color: v.$light;
 
       .btn__icon {
-        background: #fff;
-        color: v.$brand-blue;
-        transform: translateX(3px);
+        transform: translateX(8px);
       }
     }
   }

@@ -1,0 +1,55 @@
+.doctor {
+  padding: 0;
+
+  .container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .imageWrapper {
+    flex: 1;
+    min-width: 300px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .textWrapper {
+    flex: 1;
+    background: #2C4190; /* 🔹 քո նշած գույնը */
+    color: #fff;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #f0f0f0;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .container {
+      flex-direction: column;
+    }
+    .textWrapper {
+      padding: 40px 20px;
+      text-align: center;
+    }
+  }
+}

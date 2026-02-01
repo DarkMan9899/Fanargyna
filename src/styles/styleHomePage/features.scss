@@ -1,0 +1,239 @@
+@use "../variables" as v;
+
+/* ============================
+   WRAPPER
+============================ */
+.feature-block {
+  max-width: v.$max-width;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    padding: 0 30px;
+  }
+
+  @media (max-width: 576px) {
+    padding: 0 15px;
+  }
+}
+
+/* ============================
+   FEATURE SLIDER
+============================ */
+.feature-slider {
+  display: flex;
+  align-items: stretch;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  margin-bottom: 80px;
+
+  /* IMAGE */
+  &__image {
+    position: relative;
+    flex: 0 0 520px;
+    height: 520px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+
+    }
+  }
+
+  /* CONTENT */
+  &__content {
+    flex: 1;
+    background: v.$brand-blue;
+    color: #fff;
+    padding: 40px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .feature-title {
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 14px;
+    }
+
+    .feature-text {
+      font-size: 14px;
+      line-height: 1.7;
+      max-width: 520px;
+      opacity: 0.95;
+    }
+
+    .feature-nav {
+      margin-top: 28px;
+      display: flex;
+      gap: 14px;
+
+      .nav-btn {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        background: transparent;
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.2s ease;
+
+        &:hover {
+          background: #fff;
+          color: v.$brand-blue;
+        }
+      }
+    }
+  }
+
+  /* TABLET */
+  @media (max-width: 992px) {
+    flex-direction: column;
+
+    &__image {
+      width: 100%;
+      height: 300px;
+    }
+
+    &__content {
+      padding: 30px 24px;
+      text-align: center;
+      align-items: center;
+
+      .feature-text {
+        max-width: 90%;
+      }
+
+      .feature-nav {
+        justify-content: center;
+      }
+    }
+  }
+
+  /* MOBILE */
+  @media (max-width: 576px) {
+    margin-bottom: 60px;
+    border-radius: 12px;
+
+    &__image {
+      height: 200px;
+    }
+
+    &__content {
+      padding: 18px 16px;
+
+      .feature-title {
+        font-size: 18px;
+      }
+
+      .feature-text {
+        font-size: 13px;
+        line-height: 1.6;
+      }
+
+      .feature-nav {
+        gap: 16px;
+
+        .nav-btn {
+          width: 48px;
+          height: 48px;
+        }
+      }
+    }
+  }
+}
+
+/* ============================
+   CTA BANNER
+============================ */
+.feature-cta {
+  position: relative;
+  height: 220px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+
+  /* background image */
+  &__bg {
+    position: absolute;
+    inset: 0;
+    background-image: url("../../Img/shutterstock_2416028885 (1).png");
+    background-size: cover;
+    background-position: center;
+    pointer-events: none; // ✅ պարտադիր
+  }
+
+  /* overlay */
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+                    80% 80% at 80% 20%,
+                    rgba(36, 52, 109, 0.25),
+                    rgba(36, 52, 109, 0.05)
+    );
+    pointer-events: none; // ✅ պարտադիր
+  }
+
+  /* content */
+  &__content {
+    position: relative;
+    z-index: 2; // ✅ button-ը միշտ վերևում
+    height: 100%;
+    padding: 0 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 14px;
+
+    .cta-title {
+      color: #2c4190;
+      font-size: 28px;
+      font-weight: 800;
+      max-width: 650px;
+      text-align: right;
+    }
+  }
+
+  /* tablet */
+  @media (max-width: 768px) {
+    height: 180px;
+
+    &__content {
+      padding: 0 40px;
+
+      .cta-title {
+        font-size: 24px;
+      }
+    }
+  }
+
+  /* mobile */
+  @media (max-width: 576px) {
+    height: 200px;
+
+    &__content {
+      padding: 0 20px;
+      align-items: center;
+      text-align: center;
+
+      .cta-title {
+        font-size: 18px;
+        line-height: 1.4;
+      }
+    }
+  }
+}

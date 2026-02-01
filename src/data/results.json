@@ -1,17 +1,32 @@
 [
   {
     "id": "story1",
-    "image": "subtract",
-    "stats": { "story": 500, "clients": 600, "results": 50, "awards": 78 }
+    "image": "Pat1",
+    "stats": { "story": 1100, "clients": 20000, "results": 100, "awards": 15 }
   },
   {
     "id": "story2",
-    "image": "subtract",
+    "image": "Pat2",
     "stats": { "story": 530, "clients": 750, "results": 70, "awards": 95 }
   },
   {
     "id": "story3",
-    "image": "subtract",
+    "image": "Pat3",
+    "stats": { "story": 490, "clients": 520, "results": 45, "awards": 60 }
+  },
+  {
+    "id": "story4",
+    "image": "Pat4",
+    "stats": { "story": 490, "clients": 520, "results": 45, "awards": 60 }
+  },
+  {
+    "id": "story5",
+    "image": "Pat5",
+    "stats": { "story": 490, "clients": 520, "results": 45, "awards": 60 }
+  },
+  {
+    "id": "story6",
+    "image": "Pat6",
     "stats": { "story": 490, "clients": 520, "results": 45, "awards": 60 }
   }
 ]

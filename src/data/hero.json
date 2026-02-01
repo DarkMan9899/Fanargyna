@@ -1,16 +1,27 @@
 [
   {
-    "id": 1,
-    "titleKey": "hero.hero_title",
-    "subtitleKey": "hero.hero_subtitle",
-    "textKey": "hero.hero_text",
-    "image": "hero1"
+    "id": "feature1",
+    "image": "hero1",
+    "titleKey": "features_section.slides.feature1.title",
+    "textKey": "features_section.slides.feature1.text"
+  },
+
+  {
+    "id": "feature3",
+    "image": "hero2",
+    "titleKey": "features_section.slides.feature3.title",
+    "textKey": "features_section.slides.feature3.text"
   },
   {
-    "id": 2,
-    "titleKey": "hero.hero2_title",
-    "subtitleKey": "hero.hero2_subtitle",
-    "textKey": "hero.hero2_text",
-    "image": "hero2"
+    "id": "feature4",
+    "image": "hero3",
+    "titleKey": "features_section.slides.feature4.title",
+    "textKey": "features_section.slides.feature4.text"
+  },
+  {
+    "id": "feature5",
+    "image": "hero4",
+    "titleKey": "features_section.slides.feature5.title",
+    "textKey": "features_section.slides.feature5.text"
   }
 ]

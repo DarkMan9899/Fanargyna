@@ -1,0 +1,137 @@
+.values {
+  background: #f8f9fb;
+  padding: 100px 0;
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    @media (max-width: 992px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 700px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+
+    padding: 40px 30px 40px;
+
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    will-change: transform;
+
+    /* shine overlay */
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 12px;
+      pointer-events: none;
+
+      background: radial-gradient(
+                      circle at 30% 20%,
+                      rgba(30, 33, 80, 0.12),
+                      transparent 55%
+      );
+
+      opacity: 0;
+      transition: opacity 0.35s ease;
+    }
+
+    /* hover only desktop */
+    @media (hover: hover) {
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow:
+                0 18px 40px rgba(0, 0, 0, 0.14),
+                0 0 0 2px rgba(30, 33, 80, 0.10),
+                0 0 26px rgba(158, 186, 68, 0.18);
+      }
+
+      &:hover::after {
+        opacity: 1;
+      }
+    }
+
+    .icon {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      position: static;
+      top: auto;
+      left: auto;
+      transform: none;
+
+      margin-bottom: 22px;
+      transition: transform 0.35s ease;
+
+      img {
+        width: 82px;
+        height: 82px;
+        object-fit: contain;
+      }
+    }
+
+    @media (hover: hover) {
+      &:hover .icon {
+        transform: rotate(-4deg) scale(1.06);
+      }
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      color: #14213d;
+      margin: 0 0 15px;
+      font-weight: 700;
+
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        transform: translateX(-50%);
+        width: 0%;
+        height: 2px;
+        border-radius: 2px;
+        background: #1e2150;
+        transition: width 0.35s ease;
+      }
+    }
+
+    @media (hover: hover) {
+      &:hover h3::after {
+        width: 55%;
+      }
+    }
+
+    p {
+      color: #555;
+      font-size: 1rem;
+      line-height: 1.7;
+      margin: 0;
+    }
+  }
+}

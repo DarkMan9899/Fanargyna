@@ -1,0 +1,277 @@
+@use "../variables" as v;
+@use "sass:color";
+
+.navbar {
+  position: relative;
+  width: 100%;
+  z-index: 3000;
+  background: transparent;
+  border-radius: 0 0 20px 20px;
+  overflow: visible;
+
+  &.scrolled {
+    background: rgba(200, 200, 200, 0.93);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+  }
+
+  /* ---------- TOP BAR ---------- */
+  &__top {
+    max-width: v.$max-width;
+    margin: 0 auto;
+    padding: clamp(4px, 1vw, 6px) clamp(15px, 3vw, 20px);
+    display: flex;
+    justify-content: flex-end;
+    font-size: clamp(12px, 2.5vw, 14px);
+    font-weight: 600;
+
+    @media (max-width: 576px) {
+      justify-content: center;
+    }
+  }
+
+  .navbar__lang button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: clamp(4px, 1vw, 8px);
+    font-size: clamp(12px, 2.5vw, 14px);
+  }
+
+  /* ---------- PHONE BUTTON LOGIC ---------- */
+  .navbar__phone--desktop {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    gap: clamp(6px, 1.5vw, 8px);
+    font-size: clamp(14px, 2.5vw, 16px);
+    color: v.$dark;
+    text-decoration: none;
+  }
+
+  .navbar__phone--mobile {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .navbar__phone--desktop {
+      display: none;
+    }
+
+    .navbar__phone--mobile {
+      display: flex;
+      margin-top: clamp(15px, 3vw, 20px);
+      font-size: clamp(18px, 4vw, 20px);
+      font-weight: 700;
+      align-items: center;
+      gap: clamp(8px, 2vw, 10px);
+      color: v.$brand-blue;
+      text-decoration: none;
+    }
+  }
+
+  /* ---------- MAIN NAVBAR ---------- */
+  &__bottom {
+    padding: clamp(8px, 2vw, 10px) 0;
+  }
+
+  &__container {
+    max-width: v.$max-width;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 clamp(15px, 3vw, 20px);
+  }
+
+  /* ---------- LOGO ---------- */
+  &__logo img {
+    width: clamp(150px, 20vw, 200px);
+    height: clamp(45px, 8vw, 60px);
+    object-fit: contain;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+      width: clamp(120px, 25vw, 160px);
+      height: clamp(36px, 10vw, 48px);
+    }
+
+    @media (max-width: 480px) {
+      width: clamp(100px, 30vw, 140px);
+      height: clamp(30px, 12vw, 42px);
+    }
+  }
+
+  /* ---------- MENU ---------- */
+  &__menu {
+    display: flex;
+    gap: clamp(20px, 4vw, 30px);
+
+    a {
+      position: relative;
+      font-size: clamp(14px, 2.5vw, 16px);
+      color: v.$dark;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+
+      /* underline */
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        width: 0%;
+        height: 2px;
+        background: v.$brand-blue;
+        border-radius: 2px;
+        transition: 0.25s ease;
+      }
+
+      &:hover {
+        color: v.$brand-blue;
+
+        &::after {
+          width: 100%;
+        }
+      }
+
+      /* ✅ ACTIVE LINK */
+      &.active {
+        color: v.$brand-blue;
+
+        &::after {
+          width: 100%;
+        }
+      }
+    }
+
+    /* MOBILE MENU */
+    @media (max-width: 992px) {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: clamp(100px, 15vw, 120px);
+      gap: clamp(20px, 4vw, 25px);
+
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(-15px);
+
+      z-index: 99999 !important;
+      transition: all 0.35s ease;
+
+      &.open {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+      }
+
+      a {
+        font-size: clamp(18px, 5vw, 22px);
+        padding: clamp(8px, 2vw, 12px);
+
+        /* mobile underline fix */
+        &::after {
+          bottom: -4px;
+        }
+      }
+    }
+
+    @media (max-width: 576px) {
+      padding-top: clamp(80px, 12vw, 100px);
+      gap: clamp(15px, 3vw, 20px);
+
+      a {
+        font-size: clamp(16px, 6vw, 20px);
+      }
+    }
+  }
+
+  /* ---------- HAMBURGER ---------- */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: clamp(3px, 1vw, 5px);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 100000 !important;
+    padding: clamp(8px, 2vw, 12px);
+
+    span {
+      width: clamp(24px, 4vw, 28px);
+      height: clamp(2px, 0.5vw, 3px);
+      background: v.$brand-blue;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+
+    &.active {
+      span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+
+      span:nth-child(2) {
+        opacity: 0;
+      }
+
+      span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+      }
+    }
+
+    @media (max-width: 992px) {
+      display: flex;
+    }
+
+    @media (max-width: 576px) {
+      gap: clamp(2px, 0.8vw, 4px);
+    }
+  }
+
+  /* ---------- RESPONSIVE ADJUSTMENTS ---------- */
+  @media (max-width: 1024px) {
+    &__container {
+      padding: 0 clamp(10px, 2vw, 15px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    border-radius: 0 0 clamp(12px, 2vw, 16px) clamp(12px, 2vw, 16px);
+
+    &.scrolled {
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  @media (max-width: 576px) {
+    border-radius: 0 0 10px 10px;
+
+    &__top {
+      padding: 3px 10px;
+    }
+
+    &__bottom {
+      padding: 6px 0;
+    }
+
+    &__container {
+      padding: 0 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    border-radius: 0;
+
+    &__container {
+      padding: 0 8px;
+    }
+  }
+}
