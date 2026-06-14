@@ -1,0 +1,39 @@
+@use "./variables" as v;
+
+/* ============================
+   BREAKPOINTS
+============================ */
+$breakpoints: (
+        xs: 480px,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1400px
+);
+
+@mixin respond($bp) {
+  @if map-has-key($breakpoints, $bp) {
+    @media (max-width: map-get($breakpoints, $bp)) {
+      @content;
+    }
+  } @else {
+    @warn "No breakpoint found: #{$bp}";
+  }
+}
+
+/* ============================
+   HELPERS
+============================ */
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin truncate-text($lines: 1) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}

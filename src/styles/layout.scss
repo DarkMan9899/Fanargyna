@@ -1,0 +1,32 @@
+@use "./variables" as v;
+@use "./mixins" as m;
+
+.layout-container {
+  max-width: v.$max-width;
+  margin: 0 auto;
+  padding-left: v.$layout-padding-x;
+  padding-right: v.$layout-padding-x;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  main {
+    flex: 1;
+    padding: v.$spacing-lg 0;
+  }
+
+  @include m.respond(xl) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  @include m.respond(md) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @include m.respond(sm) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

@@ -1,0 +1,116 @@
+@use "sass:color";
+@use "./variables" as v;
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: v.$spacing-sm;
+  padding: v.$spacing-sm v.$spacing-lg;
+  border-radius: v.$radius-sm;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid transparent;
+  background: transparent;
+  transition:
+          background-color v.$transition-fast ease,
+          color v.$transition-fast ease,
+          border-color v.$transition-fast ease,
+          transform v.$transition-fast ease;
+
+  /* ============================
+     VARIANTS
+  ============================ */
+
+  &--primary {
+    color: #1e2150;
+    border-radius: 15px;
+    border: 2px solid #1e2150;
+    background-color: transparent;
+
+    &:hover {
+      background-color: v.$brand-blue;
+      color: v.$light;
+    }
+  }
+
+  &--secondary {
+    background-color: v.$secondary;
+    color: v.$light;
+
+    &:hover {
+      background-color: color.adjust(v.$secondary, $lightness: -8%);
+    }
+  }
+
+  &--accent {
+    background-color: v.$accent;
+    color: v.$dark;
+
+    &:hover {
+      background-color: color.adjust(v.$accent, $lightness: -8%);
+    }
+  }
+
+  &--outline {
+    border-color: v.$brand-blue;
+    color: v.$brand-blue;
+
+    &:hover {
+      background-color: v.$brand-blue;
+      color: v.$light;
+
+
+    }
+  }
+
+  /* ============================
+     ICON SUPPORT
+  ============================ */
+
+  &--with-icon {
+    .btn__icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform v.$transition-fast ease;
+    }
+
+    &:hover .btn__icon {
+      transform: translateX(4px);
+    }
+  }
+
+  /* ============================
+     READ MORE CTA
+  ============================ */
+
+  &--read-more {
+    margin-top: v.$spacing-lg;
+    border-color: v.$brand-blue;
+    color: v.$brand-blue;
+    padding: v.$spacing-sm v.$spacing-lg;
+    border-radius: v.$radius-round;
+    font-size: 1rem;
+    min-width: 220px;
+
+    .btn__icon {
+      background: v.$brand-blue;
+      color: v.$light;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    &:hover {
+      background-color: v.$brand-blue;
+      color: v.$light;
+
+      .btn__icon {
+        transform: translateX(8px);
+      }
+    }
+  }
+}

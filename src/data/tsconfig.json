@@ -1,0 +1,7 @@
+[
+  { "id": "reproductology", "icon": "/icons/reproductology.svg" },
+  { "id": "urology", "icon": "/icons/urology.svg" },
+  { "id": "radiology", "icon": "/icons/radiology.svg" },
+  { "id": "ginekolog", "icon": "/icons/reproductology.svg" },
+  { "id": "radiologyuh", "icon": "/icons/urology.svg" }
+]

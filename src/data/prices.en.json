@@ -1,0 +1,189 @@
+{
+  "categories": [
+    {
+      "id": "infertility",
+      "title": "Infertility Treatment (Reproductive Medicine)",
+      "sections": [
+        {
+          "id": "male_infertility",
+          "title": "Male Infertility Treatment",
+          "items": [
+            {
+              "name": "Consultation with the Head of Clinic, PhD, Urologist-Andrologist Dr. David Fanarjyan",
+              "price": "40,000 AMD",
+              "description": [
+                "Detailed review of all your provided test results",
+                "Physical examination and condition assessment",
+                "Prescription of necessary laboratory and instrumental examinations",
+                "Analysis of results and accurate diagnosis",
+                "Development of a personalized treatment strategy"
+              ],
+              "note": "*The price includes all necessary visits until the end of the diagnostic stage."
+            },
+            {
+              "name": "Comprehensive treatment of male infertility /medication-based/",
+              "price": "380,000 AMD"
+            }
+          ]
+        },
+        {
+          "id": "female_infertility",
+          "title": "Female Infertility Treatment",
+          "items": [
+            {
+              "name": "Initial consultation with PhD, Gynecologist-Reproductologist Dr. Armine Sayadyan (diagnostic measures aimed at identifying the causes of infertility)",
+              "price": "40,000 AMD",
+              "note": "*The price includes all necessary visits until the end of the diagnostic stage."
+            },
+            {
+              "name": "Follow-up consultation with the reproductologist (for another issue)",
+              "price": "20,000 AMD"
+            },
+            {
+              "name": "Conservative treatment of female infertility — management plan development (hormonal disorders, infections)",
+              "price": "200,000 AMD"
+            },
+            {
+              "name": "Treatment of female infertility — management plan development (ovulation stimulation — selection and management of the protocol, preparation for IUI and IVF cycles)",
+              "price": "380,000 AMD"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "urology",
+      "title": "Urological Services",
+      "sections": [
+        {
+          "id": "consultations",
+          "title": "Consultations",
+          "items": [
+            {
+              "name": "Initial consultation with the Head of Clinic, PhD, Urologist-Andrologist Dr. David Fanarjyan",
+              "price": "40,000 AMD",
+              "description": [
+                "Comprehensive review of all provided test results",
+                "Physical examination and condition assessment",
+                "Prescription of necessary laboratory and instrumental tests",
+                "Analysis of results and accurate diagnosis",
+                "Development of a personalized treatment plan"
+              ],
+              "note": "*The price includes all necessary visits until the end of the diagnostic stage."
+            },
+            {
+              "name": "Follow-up consultation with Dr. David Fanarjyan (for another issue)",
+              "price": "20,000 AMD"
+            },
+            {
+              "name": "Initial consultation with a urologist",
+              "price": "15,000 AMD"
+            },
+            {
+              "name": "Follow-up consultation with a urologist",
+              "price": "10,000 AMD"
+            }
+          ]
+        },
+
+        {
+          "id": "treatments",
+          "title": "Treatment",
+          "items": [
+            { "name": "Nonspecific acute urethritis", "price": "50,000 AMD" },
+            { "name": "Nonspecific chronic urethritis", "price": "80,000 AMD" },
+            { "name": "Specific acute urethritis", "price": "80,000 AMD" },
+            { "name": "Specific chronic urethritis", "price": "100,000 AMD" },
+            { "name": "Balanitis and balanoposthitis", "price": "80,000 AMD" },
+            { "name": "Acute prostatitis (medication-based)", "price": "150,000 AMD" },
+            { "name": "Prostate adenoma (conservative treatment)", "price": "80,000 AMD" },
+            { "name": "Chronic prostatitis (complex treatment)", "price": "250,000 AMD" },
+            { "name": "Acute orchitis or epididymitis", "price": "80,000 AMD" },
+            { "name": "Chronic orchitis or epididymitis", "price": "150,000 AMD" },
+            { "name": "Acute pyelonephritis", "price": "80,000 AMD" },
+            { "name": "Acute cystitis", "price": "50,000 AMD" },
+            { "name": "Chronic cystitis (complex treatment)", "price": "190,000 AMD" },
+            { "name": "Urinary catheter placement", "price": "20,000 AMD" },
+            { "name": "Cystostomy tube replacement", "price": "25,000 AMD" },
+            { "name": "Nephrostomy tube replacement", "price": "30,000 AMD" },
+            { "name": "Primary erectile dysfunction treatment", "price": "50,000 AMD" },
+            { "name": "Complex erectile dysfunction treatment", "price": "250,000 AMD" },
+            { "name": "Premature ejaculation treatment", "price": "80,000 AMD" },
+            { "name": "Kidney stone treatment", "price": "50,000 AMD" },
+            { "name": "Conservative treatment of urolithiasis (including litholysis)", "price": "100,000 AMD" },
+            { "name": "BCG therapy (1 session)", "price": "30,000 AMD" },
+            { "name": "Dressing", "price": "7,000 AMD" },
+            { "name": "Complicated patient", "price": "300,000 AMD" },
+            { "name": "Condyloma removal", "price": "70,000 AMD" },
+            { "name": "Circumcision", "price": "200,000 AMD" },
+            { "name": "Frenuloplasty", "price": "100,000 AMD" },
+            { "name": "Preoperative preparation + follow-up (Grade 1)", "price": "100,000 AMD" },
+            { "name": "Grade 2", "price": "150,000 AMD" },
+            { "name": "Grade 3", "price": "200,000 AMD" },
+            { "name": "Grade 4", "price": "250,000 AMD" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "gynecology",
+      "title": "Gynecological Services",
+      "sections": [
+        {
+          "id": "gynecology_services",
+          "title": "Gynecological Services",
+          "items": [
+            { "name": "Initial consultation with a gynecologist", "price": "15,000 AMD" },
+            { "name": "Follow-up consultation", "price": "10,000 AMD" },
+            { "name": "Treatment plan for nonspecific inflammations", "price": "30,000 AMD" },
+            { "name": "Treatment plan for specific infections (one infection)", "price": "50,000 AMD" },
+            { "name": "Treatment plan for two or more infections", "price": "80,000 AMD" },
+            { "name": "Outpatient treatment (per visit, without medication)", "price": "7,000 AMD" },
+            { "name": "Treatment of cervicitis and colpitis", "price": "50,000 AMD" },
+            { "name": "Colposcopy", "price": "20,000 AMD" },
+            { "name": "IUD insertion", "price": "20,000 AMD" },
+            { "name": "IUD insertion under ultrasound control", "price": "30,000 AMD" },
+            { "name": "IUD removal", "price": "10,000 AMD" },
+            { "name": "Complex treatment of chronic diseases", "price": "180,000 AMD" },
+            { "name": "Treatment of hormonal disorders", "price": "80,000 AMD" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "ultrasound",
+      "title": "Ultrasound Examinations (US)",
+      "sections": [
+        {
+          "id": "ultrasound_services",
+          "title": "Ultrasound Services",
+          "items": [
+            { "name": "Abdominal cavity", "price": "10,000 AMD" },
+            { "name": "Pelvic organs", "price": "10,000 AMD" },
+            { "name": "Abdomen + pelvis", "price": "15,000 AMD" },
+            { "name": "Thyroid gland", "price": "10,000 AMD" },
+            { "name": "Mammary glands", "price": "10,000 AMD" },
+            { "name": "Transvaginal ultrasound", "price": "15,000 AMD" },
+            { "name": "Transrectal ultrasound", "price": "15,000 AMD" },
+            { "name": "Scrotal organs /Doppler/", "price": "10,000 AMD" },
+            { "name": "Soft tissues", "price": "10,000 AMD" },
+            { "name": "Lymph nodes", "price": "10,000 AMD" },
+            { "name": "Joint sonography", "price": "15,000 AMD" },
+            { "name": "Folliculometry (per visit)", "price": "2,000 AMD" },
+            { "name": "Fetal ultrasound /screening/", "price": "15,000 AMD" },
+            { "name": "Fetal Doppler ultrasound", "price": "15,000 AMD" },
+            { "name": "Echocardiography", "price": "12,000 AMD" },
+            { "name": "Major vessels of upper limbs /duplex/", "price": "15,000 AMD" },
+            { "name": "Major vessels of lower limbs /duplex/", "price": "20,000 AMD" },
+            { "name": "Upper and lower limb vessels /duplex/", "price": "30,000 AMD" },
+            { "name": "Neck vessels /duplex/", "price": "15,000 AMD" },
+            { "name": "Complex examination (abdomen, pelvis, scrotum, thyroid gland)", "price": "30,000 AMD" }
+          ]
+        }
+      ]
+    }
+  ]
+}

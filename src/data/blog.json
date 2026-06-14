@@ -1,0 +1,29 @@
+[
+  {
+    "id": "post1",
+    "image": "Subtract.png",
+    "date": "02/10/2025",
+    "time": "10:00",
+    "titleKey": "blog_section.posts.post1.title",
+    "textKey": "blog_section.posts.post1.text",
+    "modalTextKey": "blog_section.posts.post1.modalText"
+  },
+  {
+    "id": "post2",
+    "image": "Subtract.png",
+    "date": "03/10/2025",
+    "time": "11:00",
+    "titleKey": "blog_section.posts.post2.title",
+    "textKey": "blog_section.posts.post2.text",
+    "modalTextKey": "blog_section.posts.post2.modalText"
+  },
+  {
+    "id": "post3",
+    "image": "Subtract.png",
+    "date": "04/10/2025",
+    "time": "12:00",
+    "titleKey": "blog_section.posts.post3.title",
+    "textKey": "blog_section.posts.post3.text",
+    "modalTextKey": "blog_section.posts.post3.modalText"
+  }
+]

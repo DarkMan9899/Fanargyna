@@ -1,0 +1,261 @@
+@use "../variables" as v;
+@use "../mixins" as m;
+
+/* =========================
+   WRAPPER
+========================= */
+.hero__wrapper {
+  max-width: v.$max-width;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================
+   SLIDER CARD
+========================= */
+.hero__sliderCard {
+  position: relative;
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  min-height: 360px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   SLIDE ROW
+========================= */
+.hero__row {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 44px;
+  min-height: inherit;
+
+  opacity: 0;
+  transform: translateX(60px) scale(0.96);
+
+  @include m.respond(md) {
+    flex-direction: column;
+    text-align: center;
+    padding: 34px 24px;
+  }
+}
+
+.hero__row--next {
+  animation: slideNext 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hero__row--prev {
+  animation: slidePrev 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+.hero__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  opacity: 0;
+  animation: fadeUp 0.65s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 0.25s;
+
+  h1 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    max-width: 520px;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+}
+
+/* =========================
+   IMAGE
+========================= */
+.btn1 {
+  width: 300px;
+}
+
+.hero__image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+
+  opacity: 0;
+  animation: imageFloat 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 0.35s;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  @include m.respond(md) {
+    display: none;
+  }
+}
+
+/* =========================
+   ARROWS
+========================= */
+.hero__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 60px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: v.$brand-blue;
+  opacity: 0.5;
+  transition: 0.25s;
+  z-index: 10;
+
+  &:hover {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.1);
+  }
+}
+
+.hero__arrow--left {
+  left: 14px;
+}
+
+.hero__arrow--right {
+  right: 14px;
+}
+
+/* =========================
+   DOTS
+========================= */
+.hero__dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 0;
+}
+
+.hero__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+
+  &.active {
+    background: v.$brand-blue;
+  }
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+@keyframes slideNext {
+  from {
+    opacity: 0;
+    transform: translateX(60px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes slidePrev {
+  from {
+    opacity: 0;
+    transform: translateX(-60px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes imageFloat {
+  from {
+    opacity: 0;
+    transform: translateX(40px) scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+
+/* =========================
+   MOBILE HERO FIX
+========================= */
+@include m.respond(md) {
+
+  .hero__sliderCard {
+    min-height: auto;
+    border-radius: 14px;
+  }
+
+  .hero__row {
+    flex-direction: column-reverse; /* ⬅️ image վերև */
+    gap: 18px;
+    padding: 22px 18px;
+    text-align: center;
+    transform: none;
+  }
+
+  .hero__content {
+    animation: none;
+    opacity: 1;
+
+    h1 {
+      font-size: 1.45rem;
+      line-height: 1.25;
+    }
+
+    p {
+      max-width: 100%;
+      margin-bottom: 18px;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+  }
+
+  /* 👇 ամենակարևորը — նկարը այլևս չի անհետանում */
+  .hero__image {
+    display: flex !important;
+    justify-content: center;
+    animation: none;
+    opacity: 1;
+
+    img {
+      width: 100%;
+      max-width: 320px;
+      border-radius: 16px;
+    }
+  }
+
+  /* arrows mobile-ում պետք չեն */
+  .hero__arrow {
+    display: none;
+  }
+}

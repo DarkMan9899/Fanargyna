@@ -1,0 +1,42 @@
+// 1. Utilities
+@use "./variables" as v;
+@use "./mixins" as m;
+
+// 2. Base / Components
+@use "./buttons";
+@use "./layout";
+@use "./footer";
+
+// 3. Pages / Sections
+@use "styleHomePage/navbar";
+@use "styleHomePage/heroSection";
+@use "styleHomePage/services";
+@use "styleHomePage/results";
+@use "styleHomePage/features";
+@use "styleHomePage/blog";
+@use "styleHomePage/contact";
+
+// 4. Global reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// ✅ ԱՅՍ ՏՈՂՆ Է ՖԻՔՍԸ
+body {
+  font-family: v.$font-base;
+  background: v.$bg-light;
+  color: v.$dark;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin: 0;
+}

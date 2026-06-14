@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2C4190" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- =========================
+         GOOGLE TAG MANAGER (HEAD)
+    ========================== -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-KS56JRVW");
+    </script>
+    <!-- END GTM -->
+
+    <!-- Canonical + hreflang -->
+    <!-- NOTE: ideally canonical should match the current language URL (SSR/prerender). For SPA we keep root canonical. -->
+    <link rel="canonical" href="https://fanarjyanclinic.am/" />
+    <link rel="alternate" href="https://fanarjyanclinic.am/hy" hreflang="hy" />
+    <link rel="alternate" href="https://fanarjyanclinic.am/ru" hreflang="ru" />
+    <link rel="alternate" href="https://fanarjyanclinic.am/en" hreflang="en" />
+    <link rel="alternate" href="https://fanarjyanclinic.am/" hreflang="x-default" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="%PUBLIC_URL%/logo-mark%20(1).png" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Font Awesome -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Armenian Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <!-- =========================
+         SEO DEFAULT (base)
+    ========================== -->
+    <title>Ֆանարջյան Բուժկենտրոն — Անպտղության բուժում Երևանում</title>
+    <meta
+            name="description"
+            content="Ֆանարջյան Բուժկենտրոն — վերարտադրողական բժշկություն, անպտղության բուժում, IVF/ICSI, գինեկոլոգիա և ուրոլոգիա Երևանում։"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fanarjyanclinic.am/" />
+    <meta property="og:site_name" content="Ֆանարջյան Բուժկենտրոն" />
+    <meta property="og:title" content="Ֆանարջյան Բուժկենտրոն — Անպտղության բուժում Երևանում" />
+    <meta
+            property="og:description"
+            content="Վերարտադրողական բժշկություն, անպտղության բուժում, IVF/ICSI, գինեկոլոգիա և ուրոլոգիա Երևանում։"
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/og-cover.jpg" />
+    <meta property="og:image:alt" content="Fanarjyan Clinic" />
+
+    <!-- Open Graph locale alternates -->
+    <meta property="og:locale" content="hy_AM" />
+    <meta property="og:locale:alternate" content="ru_RU" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ֆանարջյան Բուժկենտրոն — Անպտղության բուժում Երևանում" />
+    <meta
+            name="twitter:description"
+            content="Վերարտադրողական բժշկություն, անպտղության բուժում, IVF/ICSI, գինեկոլոգիա և ուրոլոգիա Երևանում։"
+    />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og-cover.jpg" />
+
+    <!-- =========================
+         AI SEO / MEDICAL STRUCTURED DATA
+         Replace placeholders: logo url, phone, address, geo, socials
+    ========================== -->
+
+    <!-- Organization / Clinic -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MedicalClinic",
+            "name": "Fanarjyan Armenian-German Medical Center",
+            "alternateName": "Ֆանարջյան Բուժկենտրոն",
+            "url": "https://fanarjyanclinic.am",
+            "logo": "https://fanarjyanclinic.am/logo-mark.png",
+            "image": "https://fanarjyanclinic.am/og-cover.jpg",
+            "description": "IVF/ICSI, infertility treatment, gynecology and urology in Yerevan, Armenia.",
+            "medicalSpecialty": [
+                "Reproductive Medicine",
+                "Gynecology",
+                "Urology"
+            ],
+            "inLanguage": ["hy", "ru", "en"],
+            "telephone": "+37410529006",
+            "priceRange": "$$$",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Sarmen 90",
+                "addressLocality": "Yerevan",
+                "addressRegion": "Yerevan",
+                "postalCode": "0012",
+                "addressCountry": "AM"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 40.1772,
+                "longitude": 44.50349
+            },
+            "areaServed": [
+                { "@type": "Country", "name": "Armenia" }
+            ],
+            "sameAs": [
+                "https://www.facebook.com/share/1XTPQsvasy/",
+                "https://www.instagram.com/fanarjyan_clinic",
+                "https://youtube.com/@fanarjyanclinic8413"
+            ]
+        }
+    </script>
+
+    <!-- WebSite (helps AI + search understand site name + search action) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Fanarjyan Clinic",
+            "url": "https://fanarjyanclinic.am",
+            "inLanguage": ["hy", "ru", "en"]
+        }
+    </script>
+
+    <!-- FAQ (basic starter; ideally put FAQ per-language page with real text) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Ի՞նչ է IVF-ը (արտամարմնային բեղմնավորում)",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "IVF-ը (In Vitro Fertilization) վերարտադրողական տեխնոլոգիա է, որը կիրառվում է անպտղության բուժման մեջ՝ ըստ բժշկական ցուցումների։"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Ո՞ր դեպքերում կարող է առաջարկվել IVF/ICSI",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "IVF/ICSI կարող է առաջարկվել տարբեր դեպքերում՝ կախված հետազոտությունների արդյունքներից, տարիքի գործոնից և բժշկական պատմությունից։ Վերջնական որոշումը կայացվում է բժշկի կողմից։"
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Ինչպե՞ս գրանցվել խորհրդատվության",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Դուք կարող եք գրանցվել կայքի միջոցով կամ զանգահարելով նշված հեռախոսահամարին։"
+                    }
+                }
+            ]
+        }
+    </script>
+
+</head>
+
+<body>
+<!-- =========================
+     GOOGLE TAG MANAGER (BODY)
+========================= -->
+<noscript>
+    <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-KS56JRVW"
+            height="0"
+            width="0"
+            style="display:none;visibility:hidden"
+    ></iframe>
+</noscript>
+<!-- END GTM -->
+
+<noscript>Ակտիվացրեք JavaScript-ը՝ կայքը ճիշտ ցուցադրելու համար։</noscript>
+
+<div id="root"></div>
+
+<!-- =========================
+     LANGUAGE SEO SWITCH (SPA SAFE)
+     NOTE: This is helpful, but BEST is SSR/prerender for each language route.
+========================= -->
+<script>
+    (function () {
+        const lang = location.pathname.split("/")[1] || "hy";
+        document.documentElement.lang = ["hy","ru","en"].includes(lang) ? lang : "hy";
+
+        const titles = {
+            hy: "Ֆանարջյան Բուժկենտրոն — Անպտղության բուժում Երևանում",
+            ru: "Армяно-Германский Медицинский Центр Фанарджян — лечение бесплодия в Ереване",
+            en: "Fanarjyan Armenian-German Medical Center — IVF & infertility treatment in Yerevan"
+        };
+
+        const descriptions = {
+            hy: "Ֆանարջյան Բուժկենտրոն — վերարտադրողական բժշկություն, անպտղության բուժում, IVF/ICSI, գինեկոլոգիա և ուրոլոգիա Երևանում։",
+            ru: "Армяно-Германский медицинский центр Фанарджян — лечение бесплодия, ЭКО/ИКСИ, гинекология и урология в Ереване.",
+            en: "Fanarjyan Armenian-German Medical Center — IVF/ICSI, infertility treatment, gynecology and urology in Yerevan, Armenia."
+        };
+
+        // Update title/description for SPA route
+        document.title = titles[lang] || titles.hy;
+
+        const descTag = document.querySelector('meta[name="description"]');
+        if (descTag) descTag.setAttribute("content", descriptions[lang] || descriptions.hy);
+
+        // Update OG tags (optional but good)
+        const ogTitle = document.querySelector('meta[property="og:title"]');
+        const ogDesc = document.querySelector('meta[property="og:description"]');
+        if (ogTitle) ogTitle.setAttribute("content", document.title);
+        if (ogDesc) ogDesc.setAttribute("content", descriptions[lang] || descriptions.hy);
+
+        const twTitle = document.querySelector('meta[name="twitter:title"]');
+        const twDesc = document.querySelector('meta[name="twitter:description"]');
+        if (twTitle) twTitle.setAttribute("content", document.title);
+        if (twDesc) twDesc.setAttribute("content", descriptions[lang] || descriptions.hy);
+
+        // GTM SPA pageview event
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            event: "virtual_pageview",
+            page_path: location.pathname + location.search,
+            page_title: document.title,
+            page_language: lang
+        });
+    })();
+</script>
+
+</body>
+</html>

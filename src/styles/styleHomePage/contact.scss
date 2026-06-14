@@ -1,0 +1,259 @@
+@use "../variables" as v;
+
+.contact {
+  max-width: v.$max-width;
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 4rem) clamp(1rem, 3vw, 2rem);
+
+  /* ---------- TITLE ---------- */
+  &__title {
+    font-size: clamp(1.4rem, 5vw, 2.2rem);
+    font-weight: 800;
+    color: v.$brand-blue;
+    margin-bottom: clamp(1.5rem, 4vw, 2.5rem);
+    text-align: center;
+    line-height: 1.2;
+
+    @media (max-width: 768px) {
+      font-size: clamp(1.3rem, 6vw, 1.9rem);
+      margin-bottom: clamp(1.25rem, 3vw, 2rem);
+    }
+
+    @media (max-width: 576px) {
+      font-size: clamp(1.2rem, 7vw, 1.6rem);
+      margin-bottom: clamp(1rem, 3vw, 1.5rem);
+    }
+  }
+
+  /* ---------- GRID LAYOUT ---------- */
+  &__grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: clamp(1.5rem, 4vw, 2.5rem);
+    align-items: start;
+
+    @media (max-width: 1024px) {
+      grid-template-columns: 1fr 0.7fr;
+      gap: clamp(1.25rem, 3vw, 2rem);
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: clamp(2rem, 5vw, 3rem);
+    }
+
+    @media (max-width: 576px) {
+      gap: clamp(1.5rem, 4vw, 2.5rem);
+    }
+  }
+
+  /* ---------- FORM SECTION ---------- */
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.75rem, 2vw, 1rem);
+
+    .input,
+    .textarea {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: clamp(6px, 1vw, 8px);
+      padding: clamp(12px, 2.5vw, 14px) clamp(14px, 3vw, 16px);
+      font-size: clamp(0.9rem, 2.5vw, 1rem);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      background: #fafafa;
+
+      &:focus {
+        border-color: v.$brand-blue;
+        box-shadow: 0 0 0 3px rgba(36, 52, 109, 0.15);
+        background: #fff;
+      }
+
+      @media (max-width: 576px) {
+        font-size: clamp(0.85rem, 3vw, 0.95rem);
+        padding: clamp(10px, 2vw, 12px) clamp(12px, 2.5vw, 14px);
+        border-radius: 6px;
+      }
+
+      @media (max-width: 480px) {
+        font-size: 16px;
+      }
+    }
+
+    .textarea {
+      min-height: clamp(120px, 20vw, 150px);
+      resize: vertical;
+      line-height: 1.5;
+
+      @media (max-width: 768px) {
+        min-height: clamp(100px, 15vw, 120px);
+      }
+
+      @media (max-width: 576px) {
+        min-height: clamp(80px, 12vw, 100px);
+        resize: none;
+      }
+    }
+
+    .contact__button-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: clamp(0.5rem, 2vw, 1rem);
+
+      .contact__submit {
+        border: 2px solid v.$brand-blue;
+        background: transparent;
+        color: v.$brand-blue;
+        font-size: clamp(0.9rem, 2.5vw, 1rem);
+        font-weight: 600;
+        padding: clamp(10px, 2vw, 12px) clamp(30px, 6vw, 40px);
+        border-radius: 40px;
+        cursor: pointer;
+        transition: all 0.25s ease;
+
+        &:hover {
+          background: v.$brand-blue;
+          color: white;
+          transform: translateY(-2px);
+        }
+
+        @media (max-width: 576px) {
+          width: 100%;
+          font-size: clamp(0.85rem, 3vw, 0.95rem);
+          padding: clamp(12px, 2.5vw, 14px) 0;
+          border-radius: 8px;
+          justify-content: center;
+
+        }
+      }
+    }
+
+    .form-status {
+      text-align: center;
+      margin-top: clamp(0.6rem, 2vw, 0.8rem);
+      font-weight: 600;
+      font-size: clamp(0.85rem, 2vw, 0.95rem);
+
+      &.ok {
+        color: #18a957;
+      }
+
+      &.err {
+        color: #d64545;
+      }
+    }
+  }
+  /* ---------- SOCIAL LINKS ---------- */
+  /* ---------- SOCIAL ICONS ---------- */
+  .contact__socials {
+    .social-icons {
+      display: flex;
+      gap: clamp(10px, 2vw, 16px);
+
+      a {
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        border: 1.5px solid rgba(0, 0, 0, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        color: v.$brand-blue;
+        font-size: 1.2rem;
+        transition: all 0.25s ease;
+        background: #fff;
+
+        &:hover {
+          background: v.$brand-blue;
+          color: #fff;
+          transform: translateY(-3px);
+          box-shadow: 0 8px 20px rgba(36, 52, 109, 0.25);
+        }
+      }
+
+      @media (max-width: 768px) {
+        justify-content: center;
+      }
+    }
+  }
+
+
+  /* ---------- INFO SECTION ---------- */
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: clamp(1rem, 3vw, 2rem);
+    gap: clamp(1rem, 2.5vw, 1.5rem);
+
+    @media (max-width: 1024px) {
+      gap: clamp(0.8rem, 2vw, 1.2rem);
+      padding-left: clamp(0.75rem, 2vw, 1.5rem);
+    }
+
+    @media (max-width: 768px) {
+      border-left: none;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      padding-left: 0;
+      padding-top: clamp(1.5rem, 4vw, 2rem);
+      align-items: center;
+      text-align: center;
+      gap: clamp(1.25rem, 3vw, 1.5rem);
+    }
+
+    @media (max-width: 576px) {
+      gap: clamp(1rem, 2.5vw, 1.25rem);
+      padding-top: clamp(1rem, 3vw, 1.5rem);
+    }
+
+    .info-item {
+      h4 {
+        font-size: clamp(0.9rem, 2.5vw, 1rem);
+        color: v.$brand-blue;
+        margin-bottom: clamp(4px, 1vw, 6px);
+        font-weight: 600;
+
+        @media (max-width: 576px) {
+          font-size: clamp(0.85rem, 3vw, 0.95rem);
+        }
+      }
+
+      a,
+      p {
+        color: v.$dark;
+        text-decoration: none;
+        font-size: clamp(0.85rem, 2.2vw, 1rem);
+        line-height: 1.4;
+
+        @media (max-width: 576px) {
+          font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+        }
+      }
+
+      a:hover {
+        color: v.$brand-blue;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  /* ---------- RESPONSIVE PADDING ---------- */
+  @media (max-width: 1200px) {
+    padding: clamp(1.5rem, 4vw, 3rem) clamp(1.5rem, 4vw, 2rem);
+  }
+
+  @media (max-width: 768px) {
+    padding: clamp(1.25rem, 3vw, 2rem) clamp(1rem, 2.5vw, 1.5rem);
+  }
+
+  @media (max-width: 576px) {
+    padding: clamp(1rem, 2.5vw, 1.5rem) clamp(0.75rem, 2vw, 1rem);
+  }
+
+  @media (max-width: 480px) {
+    padding: clamp(0.75rem, 2vw, 1rem) clamp(0.5rem, 1.5vw, 0.75rem);
+  }
+}

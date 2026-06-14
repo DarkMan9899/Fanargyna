@@ -1,0 +1,32 @@
+[
+  {
+    "id": "feature1",
+    "image": "hero1",
+    "titleKey": "hero.hero_title",
+    "textKey": "hero.hero_text"
+  },
+  {
+    "id": "feature2",
+    "image": "hero2",
+    "titleKey": "hero.hero2_title",
+    "textKey": "hero.hero2_text"
+  },
+  {
+    "id": "feature3",
+    "image": "hero3",
+    "titleKey": "hero.hero3_title",
+    "textKey": "hero.hero3_text"
+  },
+  {
+    "id": "feature4",
+    "image": "hero4",
+    "titleKey": "hero.hero4_title",
+    "textKey": "hero.hero4_text"
+  },
+  {
+    "id": "feature5",
+    "image": "hero5",
+    "titleKey": "hero.hero5_title",
+    "textKey": "hero.hero5_text"
+  }
+]

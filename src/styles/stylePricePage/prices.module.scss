@@ -1,0 +1,232 @@
+.pricesPage {
+  background: #f5f7fb;
+}
+
+.container {
+  width: min(1160px, 100%);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.pageTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #24346d;
+  margin-bottom: 32px;
+}
+
+/* SEARCH BOX */
+.searchBox {
+  margin-bottom: 32px;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 14px 20px;
+  border-radius: 50px;
+  border: 1px solid #d0d4e4;
+  font-size: 16px;
+  outline: none;
+  transition: 0.2s ease;
+
+  &:focus {
+    border-color: #24346d;
+    box-shadow: 0 0 0 3px rgba(36, 52, 109, 0.15);
+  }
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.tabButton {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid #d0d4e4;
+  background: white;
+  font-size: 15px;
+  color: #24346d;
+  cursor: pointer;
+  transition: all 0.25s ease;
+
+  &:hover {
+    border-color: #24346d;
+  }
+}
+
+.tabButtonActive {
+  background: #24346d;
+  color: #fff;
+  border-color: #24346d;
+}
+
+/* CATEGORY TITLES */
+.categoryWrapper {
+  margin-bottom: 40px;
+}
+
+.categoryTitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: #24346d;
+  margin-bottom: 16px;
+}
+
+/* ACCORDION */
+.accordionGroup {
+  border-radius: 18px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+}
+
+.accordionItem + .accordionItem {
+  border-top: 1px solid #e5e7ef;
+}
+
+.accordionHeader {
+  padding: 18px 20px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordionTitle {
+  color: #24346d;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.accordionIcon {
+  font-size: 18px;
+  color: #24346d;
+  transition: transform 0.25s ease;
+}
+
+.accordionIconOpen {
+  transform: rotate(180deg);
+}
+
+.accordionBody {
+  padding: 12px 20px 20px;
+  border-top: 1px solid #eef0f6;
+}
+
+/* SERVICE ROW */
+.serviceRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  gap: 16px;
+  border-bottom: 1px dashed #e5e7ef;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.serviceText {
+  flex: 1;
+}
+
+.serviceName {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1f244b;
+  margin-bottom: 6px;
+}
+
+.serviceDescription {
+  margin: 0 0 6px 18px;
+  padding: 0;
+  list-style: disc;
+  font-size: 14px;
+  color: #4a4f6b;
+
+  li + li {
+    margin-top: 3px;
+  }
+}
+
+.serviceNote {
+  font-size: 13px;
+  color: #8b90a9;
+  font-style: italic;
+}
+
+.servicePrice {
+  font-size: 16px;
+  font-weight: 700;
+  color: #24346d;
+  white-space: nowrap;
+}
+
+/* ----------- RESPONSIVE IMPROVED ----------- */
+
+@media (max-width: 992px) {
+  .pageTitle {
+    font-size: 28px;
+  }
+
+  .serviceRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .servicePrice {
+    margin-top: 4px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .accordionHeader {
+    padding: 16px;
+  }
+
+  .accordionTitle {
+    font-size: 15px;
+  }
+
+  .serviceName {
+    font-size: 15px;
+  }
+
+  .serviceDescription {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pageTitle {
+    font-size: 24px;
+  }
+
+  .tabButton {
+    width: 100%;
+    text-align: center;
+  }
+
+  .serviceRow {
+    padding: 12px 0;
+  }
+
+  .accordionGroup {
+    border-radius: 14px;
+  }
+
+  .accordionHeader {
+    padding: 14px;
+  }
+
+  .accordionBody {
+    padding: 12px 14px 14px;
+  }
+}

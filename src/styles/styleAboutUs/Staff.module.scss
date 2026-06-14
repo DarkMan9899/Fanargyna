@@ -1,0 +1,316 @@
+@use "../variables" as v;
+.info button {
+  margin-top: auto;
+
+}
+
+.actions {
+  margin-top: auto;
+  padding-top: 20px;
+
+}
+.modalHeader h3 {
+  white-space: pre-line;
+}
+.staff {
+  padding: clamp(4rem, 8vw, 6rem) 0;
+  background: v.$bg-light;
+  text-align: center;
+
+  /* =========================
+     SECTION TITLE
+  ========================= */
+  h2 {
+    font-size: clamp(1.4rem, 4vw, 2rem);
+    font-weight: 800;
+    color: v.$brand-blue;
+    margin-bottom: clamp(2rem, 5vw, 3rem);
+    text-transform: uppercase;
+  }
+
+  /* =========================
+     GRID
+  ========================= */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: clamp(1.5rem, 4vw, 2rem);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    @media (max-width: 992px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* =========================
+    MOBILE SIMPLE CARD
+ ========================= */
+    @media (max-width: 640px) {
+
+      .card {
+        text-align: center;
+      }
+
+      .card .info {
+        padding: 14px 6px 18px;
+        align-items: center;
+      }
+
+      /* ❌ թաքցնում ենք profession */
+      .card .info h4 {
+        display: none;
+      }
+
+      /* ❌ թաքցնում ենք description */
+      .card .info p {
+        display: none;
+      }
+
+      /* անունը կենտրոն */
+      .card .info h3 {
+        text-align: center;
+        margin-bottom: 14px;
+        font-size: 1rem;
+      }
+
+      /* button full width + գեղեցիկ */
+      .card .actions {
+        width: 100%;
+      }
+
+      .card .actions .btn {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 16px;
+        font-size: 0.95rem;
+      }
+    }
+
+  }
+
+  /* =========================
+     CARD
+  ========================= */
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+
+    @media (hover: hover) {
+      &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
+      }
+    }
+
+    /* IMAGE */
+    img {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* INFO */
+    .info {
+      padding: 24px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+
+      h3 {
+        color: v.$brand-blue;
+        font-weight: 700;
+        font-size: clamp(1.1rem, 3vw, 1.25rem);
+        margin-bottom: 4px;
+      }
+
+      h4 {
+        color: v.$gray;
+        font-size: clamp(0.9rem, 2.5vw, 1rem);
+        margin-bottom: 12px;
+        font-weight: 500;
+      }
+
+      p {
+        color: v.$text-muted;
+        font-size: clamp(0.9rem, 2.5vw, 0.95rem);
+        line-height: 1.6;
+        margin-bottom: 30px;
+
+      }
+    }
+  }
+
+  /* =========================
+     MODAL OVERLAY
+  ========================= */
+  .modalOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 1rem;
+  }
+
+  /* =========================
+     MODAL
+  ========================= */
+  .modal {
+    background: #fff;
+    border-radius: 14px;
+    max-width: 600px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    position: relative;
+
+    h3 {
+      font-size: clamp(1.2rem, 4vw, 1.6rem);
+      color: v.$brand-blue;
+      margin-bottom: 1rem;
+      font-weight: 800;
+    }
+
+    p {
+      color: v.$dark;
+      line-height: 1.8;
+      font-size: clamp(0.9rem, 3vw, 1rem);
+    }
+  }
+}
+
+
+
+/* =========================
+   MODAL OVERLAY
+========================= */
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+/* =========================
+   MODAL WINDOW
+========================= */
+.modal {
+  background: #fff;
+  width: 100%;
+  max-width: 640px;
+  max-height: 90vh;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  animation: slideUp 0.3s ease;
+}
+
+/* =========================
+   MODAL HEADER
+========================= */
+.modalHeader {
+  padding: 24px 28px;
+  background: v.$bg-alt;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: v.$brand-blue;
+    margin: 0;
+  }
+}
+
+/* CLOSE BUTTON */
+.modalClose {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: v.$brand-blue;
+  padding: 6px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+/* =========================
+   MODAL BODY
+========================= */
+.modalBody {
+  padding: 28px;
+  overflow-y: auto;
+  line-height: 1.8;
+  color: v.$dark;
+  font-size: 1rem;
+
+  p {
+    margin-bottom: 1.2rem;
+  }
+}
+
+/* =========================
+   FOOTER
+========================= */
+.modalFooter {
+  padding: 20px 28px;
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 576px) {
+  .modal {
+    border-radius: 12px;
+  }
+
+  .modalHeader,
+  .modalBody,
+  .modalFooter {
+    padding: 20px;
+  }
+}
+
+/* =========================
+   ANIMATION
+========================= */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}

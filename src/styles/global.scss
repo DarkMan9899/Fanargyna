@@ -1,0 +1,19 @@
+@use "./variables" as v;
+
+html {
+  overflow-y: scroll; // ✅ պարտադրում ենք մշտական scrollbar
+  scroll-behavior: smooth;
+
+}
+
+body {
+  font-family: v.$font-base;
+  background: v.$bg-light;
+  color: v.$dark;
+  line-height: 1.6;
+}
+
+.text-with-breaks {
+  white-space: pre-line;
+  text-align: left;
+}

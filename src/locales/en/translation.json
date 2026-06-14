@@ -1,0 +1,275 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "faq_title": "Frequently Asked Questions",
+  "close": "Close",
+  "services": "Services",
+  "pricelist": "Price List",
+  "blog": "Blog",
+  "contact": "Contact",
+  "hero": {
+    "hero_title": "Clinic director, PhD, urologist-andrologist David Fanarjyan",
+    "hero_subtitle": "Founder and Director of Fanarjyan Clinic, PhD in Medicine, member of Armenian, Russian, and European Urological Associations",
+    "hero_text": "We provide high-quality medical care using modern and evidence-based approaches.",
+    "hero2_title": "85% Success Rate in Infertility Treatment",
+    "hero2_subtitle": "Professional Medical Staff",
+    "hero2_text": "We work exclusively according to European and American clinical guidelines.",
+    "hero_cta": "Read More",
+    "hero3_title": "Specialists with Over 25 Years of Experience",
+    "hero3_subtitle": "Professional Medical Staff",
+    "hero3_text": "Professional education and advanced training abroad",
+    "hero4_title": "Specialists with Over 25 Years of Experience",
+    "hero4_subtitle": "",
+    "hero4_text": "Professional education and advanced training abroad — continuous development is one of our keys to success",
+    "hero5_title": "Experience of a Leading German Clinic in Armenia",
+    "hero5_subtitle": "",
+    "hero5_text": "Leading German medical innovation, now available in Armenia"
+  },
+  "services_section": {
+    "title": "Services",
+    "readMore": "Read More",
+    "reproductology": {
+      "title": "Female Infertility",
+      "desc": "Comprehensive diagnosis and treatment of female infertility with an individualized approach and high effectiveness, provided by leading reproductive specialists."
+    },
+    "andrology": {
+      "title": "Male Infertility",
+      "desc": "Diagnosis and treatment of male reproductive health issues, including hormonal disorders, reduced sperm quality, varicocele, and other conditions."
+    },
+    "urology": {
+      "title": "Urology – Andrology",
+      "desc": "Prevention, diagnosis, and treatment of genitourinary system diseases by experienced urologists and andrologists."
+    },
+    "gynecology": {
+      "title": "Gynecology",
+      "desc": "Diagnosis and treatment of women's health issues, including menstrual disorders, inflammatory conditions, hormonal changes, and other concerns."
+    },
+    "radiology": {
+      "title": "Radiology (Ultrasound Examination)",
+      "desc": "Premium-class ultrasound diagnostics with high accuracy for assessing the condition of internal organs."
+    }
+  },
+  "clinic": {
+    "subtitle": "Who We Are",
+    "title": "Fanarjyan Clinic",
+    "text": "The Armenian-German Medical Center “Fanarjyan” has been helping patients overcome infertility, urological and gynecological conditions, and address all aspects of reproductive health since 2016. Through collaboration with German clinics, the application of modern European treatment protocols, and the work of specialists educated abroad, we provide effective solutions even in the most complex and challenging cases.",
+    "button": "Read More",
+    "label": "A FAMILY CLINIC\nBY YOUR SIDE IN THE MOST DIFFICULT MOMENTS"
+  },
+  "results_section": {
+    "title": "Our Results",
+    "subtitle": "The Beginning of a New Life at Fanarjyan",
+    "read_more": "Read more",
+    "stats": {
+      "story": "Registered pregnancies",
+      "clients": "Treated patients",
+      "results": "Surgeries per year",
+      "awards": "Patients from different countries"
+    },
+    "stories": {
+      "story1": {
+        "title": "Damaged sperm cells are no longer an obstacle",
+        "modalText": "<i>A couple applied to Fanarjyan Clinic — a 28-year-old man and a 27-year-old woman.</i><br /> <br /><b>Complaints</b><br />For 2.5 years, the couple had been unable to achieve pregnancy. The woman was referred by the gynecologist-reproductologist of our center for the necessary examinations, the results of which showed that she was completely healthy. In addition, the man reported general mild weakness and psychological tension caused by the absence of pregnancy. According to the patient, he frequently visited saunas and took hot baths, which negatively affect spermatogenesis (the process of formation and development of sperm cells). In addition, irrational nutrition and a disturbed sleep regimen could also have a negative impact.<br /><br /> <b>Anamnesis</b><br />The patient has been leading an active sexual life over the past 2.5 years. Before that, sexual intercourse had not been frequent. He underwent sperm analysis twice, and in both cases oligoasthenoteratozoospermia (OAT) was recorded. This pathology is characterized by reduced sperm motility (asthenozoospermia) combined with structural abnormalities (teratozoospermia).\nThe patient is the second child in the family. The older brother has two children, and the younger sister has one child. No cases of infertility were recorded in the family. Development since childhood was appropriate for age. Currently, he works as a software specialist.<br /><br /> <b>Diagnostic stage</b><br />During consultation and physical examination, no abnormalities in organ development were detected. During examination of the scrotum, the testes were of normal size, and no pathological formations were found.\nUltrasound examination of the scrotal organs and spermatic cord veins (with Doppler) revealed no pathology. The spermogram results corresponded to the picture of oligoasthenoteratozoospermia. PCR testing for sexually transmitted infections was also performed, with negative results. General urinalysis showed no abnormalities. Diagnosis: oligoasthenoteratozoospermia.<br /><br /><b>Treatment stage</b><br />All possible risk factors that could affect sperm quality were explained to the patient in detail.\nThe preparation “Normofertil” (a biologically active supplement that promotes an increase in the number and motility of germ cells) was prescribed — 1 sachet per day for 3 months.\nA special diet was prescribed by a specialist, and the patient also eliminated hot baths and saunas, engaged in regular physical activity, and normalized his sleep regimen.\nAfter 2 months, a follow-up spermogram was scheduled.\nThe results of the repeated examination showed clear improvement. It was recommended to continue treatment for another 1 month and repeat the spermogram.\nAfter 3 months, the patient presented a follow-up spermogram, all indicators of which were already within normal limits. In addition, the patient noted that as a result of treatment and elimination of risk factors, overall well-being and erection significantly improved.\nThe intake of the preparation was discontinued 4 months after the start of treatment, simultaneously with confirmation of pregnancy in the spouse. After 9 months, a baby boy was born in the family.<br /><br /><b>Conclusion</b><br />This clinical case once again proves the importance of a healthy lifestyle and proper nutrition. The patient, who had been unable to become a father for a long time, changed his habits, eliminated risk factors, and achieved the desired result.\nThe impact of the environment on the human body, including male reproductive function, is extremely significant. There are many such clinical cases, and every year the number of couples suffering from infertility increases. Already today in Armenia, infertility is present in approximately 17% of families, and in about 50% of cases the cause is related to the male factor."
+      },
+      "story2": {
+        "title": "Nine years of infertility have been overcome",
+        "modalText": "<i>A couple applied to the Fanarjyan Medical Center — a 35-year-old man and a 34-year-old woman.</i><br /> <br /> <b>Complaints</b><br />For about 9 years, the couple had been unable to achieve pregnancy. During this period, 3 unsuccessful IVF (in vitro fertilization) attempts were performed in other medical institutions. The woman underwent the necessary examinations and was considered completely healthy. Despite this, for many years the couple was repeatedly directed to IVF programs without full evaluation and treatment of the male factor.<br /><br /><b>Anamnesis</b><br />During the examination, it became clear that the man’s problems had been ignored for a long time. As a result of a comprehensive examination performed at Fanarjyan Clinic, the following pathologies were diagnosed in the 35-year-old patient:\n· Left-sided varicocele (grade II)\n· Oligoasthenozoospermia (significant reduction in semen quality)\nThis was a case of male infertility.\n\nIndicators before treatment\nSpermogram data showed pronounced deviations:\n• Sperm concentration — only 5 million per ml\n• Motility (group A) — only 3%<br /><br /><b>Diagnosis</b><br />Left-sided varicocele (grade II)\nOligoasthenozoospermia\n\nTreatment stage\nInstead of again offering another IVF program, a clear and well-founded treatment plan was developed. It was decided to perform a microsurgical intervention — varicocelectomy using the Marmar method, aimed at eliminating the root cause of the problem.\nThe surgery was performed successfully.\n\nResults 6 months after surgery (after 2 spermatogenic cycles)\nThe follow-up spermogram recorded a clear positive dynamic:\n• Concentration — 5 million ➡️ 18 million\n• Motility — 3% ➡️ 22%\nSince the woman was completely healthy, the couple decided to wait for natural pregnancy.<br /><br /><b>Result</b><br />What the couple had been waiting for for almost a decade became a reality — pregnancy occurred naturally.<br /><br /><b>Conclusion</b><br />This clinical case once again emphasizes that timely diagnosis and cause-based treatment of the male factor are just as necessary as in cases of female infertility and urges specialists in this field to strictly follow international urological guidelines to achieve the desired result.\nAt the Fanarjyan Medical Center, the priority is not quick solutions, but correct diagnosis, an individual approach, and evidence-based treatment."
+      },
+      "story3": {
+        "title": "Could it be that the problem is not female?",
+        "modalText": "<i>On the recommendation of the woman’s gynecologist, a 32-year-old man applied to the medical center.</i><br /><br /><b>Complaints</b><br />The patient reported that for 3 years the couple had been unable to have a child and were considering IVF (in vitro fertilization) programs. He considered himself completely healthy and had no issues related to sexual life. The patient did not understand and was even somewhat irritated that he was referred to an andrologist, as he was convinced that the problem was female.\nDuring the autumn and winter months, he experienced frequent urges to urinate. He was forced to visit the restroom almost every hour during the day, but after some time these complaints resolved. Overall, the patient did not note urinary disorders.<br /><br /><b>Anamnesis</b><br />Previously, the patient had never consulted a urologist or andrologist.\nHe began sexual activity at the age of 17. Before marriage, he had several sexual partners, but no pregnancies occurred.\nThe woman is 25 years old. A gynecologist-reproductologist followed her for about 2.5 years, but under active planning conditions pregnancy did not occur.\nThe patient had not had epidemic mumps (parotitis), testicular injuries, inflammatory diseases, nor had he ever undergone surgical interventions on the genital organs. During the examination, allergic, venereal, and endocrine diseases were ruled out. He did not take medications.\nHe does not smoke or consume alcohol. He works as the chief accountant of a company.<br /><br /><b>Diagnostic stage</b><br />During examination, the prostate gland was smooth, with a doughy-elastic consistency, and slightly enlarged. The scrotum and testes with epididymides were without abnormalities. No developmental anomalies of the genital organs were found.\nAccording to TRUS (transrectal ultrasound examination) results:\na wide area of fibrosis in the left lobe of the prostate — 13 × 6.3 mm\nthe volume of the prostate gland — 27.5 cm³ (enlarged)\n\nLaboratory examinations\nProstate secretion — increased number of leukocytes (20–25 per field of view, normal 1–2)\nBacteriological culture of prostate secretion — Escherichia coli (titer 10⁶, normal <10²)\nSpermogram — oligoasthenozoospermia (reduced number and motility of sperm cells)\nHormone levels in the blood were within normal limits.<br /><br /><b>Diagnosis</b><br />· Chronic prostatitis\n· Oligoasthenozoospermia<br /><br /><b>Treatment</b><br />The patient was prescribed long-term antibiotic treatment, anti-inflammatory therapy, and physiotherapeutic procedures. After completion of the main treatment course, the preparation “Normofertil” (a biologically active supplement that promotes an increase in the number and motility of germ cells)) was prescribed.\nAt the same time, the patient’s wife, by appointment of the gynecologist, took antibacterial medications.\nAt the end of treatment, follow-up examinations were performed, all indicators of which were within normal limits, after which treatment was discontinued.<br /><br /><b>Result</b><br />Five months after completion of treatment, the patient reported that pregnancy had been registered in his wife.<br /><br /><b>Conclusion</b><br />This clinical case shows that some diseases may develop without pronounced symptoms. Infections present in the patient and impaired spermogram indicators significantly reduce the possibility of having a child, even when the woman is completely healthy.\nTherefore, in cases of prolonged absence of pregnancy, it is necessary for the man to also undergo a full examination in order to exclude all possible causes."
+      },
+      "story4": {
+        "title": "We waited for this miracle for 7 years",
+        "modalText": "<i>A married couple applied to the Fanarjyan Medical Center — a 32-year-old man and a 30-year-old woman.</i><br /><br />\n<b>Complaints</b><br />For approximately 7 years, the couple had been unable to achieve pregnancy. Over the years, they repeatedly consulted various clinics and specialists both in Armenia and abroad; however, no positive treatment outcomes were recorded.\nThe couple reported pronounced psychological tension, feelings of despair, and constant stress caused by long-term unsuccessful attempts.<br /><br /><b>Anamnesis</b><br />Over the previous years, the couple underwent numerous examinations and treatment attempts. According to preliminary conclusions, the absence of pregnancy was associated with the male factor; however, due to stress accumulated over the years, female-related issues also developed. The man underwent open biopsy three times, and the couple had IVF (in vitro fertilization) attempts in Spain and Italy, as well as twice in Armenia.\nAs a result of a comprehensive examination performed at Fanarjyan Clinic, severe abnormalities of the male reproductive system were identified.<br /><br /><b>Diagnostic stage</b><br />As a result of physical examination and instrumental investigations, the following were detected:\n▫️ Absence of a testis (monorchism)\n▫️ A sharply reduced number of viable sperm cells in the ejaculate\nSpermogram data indicated severe male infertility — azoospermia.\nIn the woman, according to ultrasound examinations of the pelvic organs, anovulatory cycles were recorded. Over a four-year period, during regular ultrasound examinations performed on days 20–25 of the menstrual cycle, endometrial thickness did not exceed 5 mm. Ovulation induction attempts with clomiphene were performed three times; however, ovulation was not observed. Physiotherapeutic treatment methods (electrophoresis) were applied.<br /><br /><b>Diagnosis</b><br />In the man:\nMonorchism\nAzoospermia\nIn the woman:\nAnovulatory menstrual cycles (absence of ovulation)\nEndometrial hypoplasia<br /><br /><b>Treatment stage</b><br />A detailed consultation was conducted with the patients, during which the true causes of the problem and possible treatment approaches were explained. An individualized treatment plan was developed, aimed at achieving the maximum possible improvement in sperm quality.\nA microsurgical biopsy was performed, during which sperm cells were identified and subsequently used within the IVF program.\nCombined drug therapy and biologically active supplements were prescribed, along with clear recommendations regarding lifestyle modification.\nThe patient was advised to normalize nutrition, eliminate harmful habits, adhere to a proper sleep regimen, and avoid stress factors.\nThe woman was referred for individual psychotherapy sessions. This measure was applied because the woman had developed a deep-rooted belief that infertility was her fault. In addition, a pregnancy preparation phase was carried out by regulating sleep, nutrition, and physical activity. A three-month course of the vitamin and mineral complex “Femofertil” (a biologically active supplement that promotes restoration of the female reproductive system) was prescribed.<br /><br /><b>Result</b><br />Despite severe initial indicators, following IVF treatment, pregnancy was achieved in the woman and successfully maintained.\nA healthy baby boy was born weighing 3500 g and measuring 53 cm in length.<br /><br /><b>Conclusion</b><br />This clinical case once again demonstrates that even in the most complex and long-standing cases of infertility, successful outcomes can be achieved through accurate diagnosis and consistent professional care, and highlights the importance of psychological well-being during pregnancy planning.\nAfter years of disappointment, the couple became parents, and the 7-year wait turned into the greatest happiness of their lives."
+      },
+      "story5": {
+        "title": "How the absence of menstruation ended with a twin pregnancy",
+        "modalText": "<i>In October 2022, a 28-year-old woman applied to the Fanarjyan Medical Center, who had been unable to conceive for more than 1.5 years despite regular sexual life.</i><br /><br /><b>Complaints</b><br />In addition to the absence of pregnancy, the patient complained of irregular menstruation, which did not start without progesterone intake, as well as a weight gain of approximately 10 kg over the past year.\nWhen taking progesterone during the second phase of the menstrual cycle, menstruation was always regular.<br /><br /><b>Anamnesis</b><br />Menstruation began at the age of 12. Until the age of 18, the menstrual cycle was irregular (once every 3–6 months), after which it normalized spontaneously.\nIn 2018, the patient had childbirth by natural delivery. A healthy child was born weighing 3200 g and measuring 51 cm in length. The postpartum period proceeded without complications. Breastfeeding lasted 1 year.\nAfter childbirth, the menstrual cycle did not recover. The patient used oral contraceptives (OCs). After discontinuation of OCs, menstruation did not resume. At the time of presentation, menstruation had been absent for 4 months.\nAmong concomitant conditions, chronic cystitis was noted. There were no surgeries or injuries.<br /><br /><b>Diagnostic stage</b><br />The patient’s height was 175 cm, weight — 85 kg, body mass index (BMI) — 27.1 (overweight). During general examination, no pathology of organs or systems was detected. Hirsutism score — 2 (normal). Vaginal examination and examination with mirrors also revealed no abnormalities.\nUltrasound examination of the pelvic organs was performed on the 120th day of the menstrual cycle.\nUltrasound conclusion:\nAdenomyosis, grade I\nPolycystic ovary syndrome\nTo assess estrogen saturation, a progesterone challenge test was performed: the patient took progesterone-containing medications for 10 days. After discontinuation, menstruation began, meaning the test was positive, indicating dysfunction of the hypothalamic–pituitary–ovarian axis.\nHormonal studies were performed on days 3–5 of the menstrual cycle, which revealed an elevated HOMA index, indicating insulin resistance.\nNo pathology was detected based on the results of the complete blood count and gynecological smear.\nThe husband’s spermogram was within normal limits. MAR test (detection of antisperm antibodies) was negative, which excluded immunological infertility.<br /><br /><b>Diagnosis</b><br />· Female infertility\n· Polycystic ovary syndrome, phenotype A (hyperandrogenism, chronic anovulation)\n· Insulin resistance\n· Hyperinsulinemia\n· Overweight<br /><br /><b>Treatment</b><br />The patient received an endocrinologist consultation directly at the clinic and appropriate recommendations.\nA 3-month treatment regimen was prescribed. The main emphasis was placed on weight reduction and correction of insulin resistance.\nA special individualized diet was developed for the patient, appropriate physical activity was prescribed, as well as medications for insulin resistance, after which the body mass index decreased and the HOMA index normalized.\nA three-month course of the vitamin and mineral complex “Femofertil” (a biologically active supplement that promotes restoration of the female reproductive system) was prescribed.\nDuring treatment, ultrasound hysterosalpingoscopy was performed to assess the patency of the fallopian tubes. Both tubes were found to be patent.\nThanks to the joint work of the endocrinologist and gynecologist, the woman’s cycle became regular and ovulatory.\nAfter the first stimulation cycle, the patient became pregnant with twins, which occurs when two different oocytes are fertilized by two different sperm cells. The patient had been informed in advance about the possibility of a twin pregnancy, as two dominant follicles matured in this cycle.\nAs a result, a boy was born weighing 2300 g and measuring 45 cm, and a girl weighing 1970 g and measuring 43 cm.<br /><br /><b>Conclusion</b><br />This clinical case confirms that in polycystic ovary syndrome, induced and often spontaneous pregnancy with the birth of healthy children is possible. The patient strictly followed all prescribed therapeutic, hormonal, dietary, and behavioral recommendations.\nAt Fanarjyan Clinic, the root causes of the problem are addressed rather than its consequences."
+      },
+      "story6": {
+        "title": "Successful pregnancy after the age of 40",
+        "modalText": "<i>Secondary infertility is not an obstacle either</i>\nA married couple applied to the Fanarjyan Medical Center with complaints of absence of pregnancy over the past 5 years. The man was 43 years old, the woman was 38 years old. The anamnesis included one natural childbirth 9 years earlier, with the birth of a healthy boy.<br /><br /><b>Complaints</b><br />Absence of pregnancy under conditions of regular sexual life without the use of contraceptives for approximately 5 years. The couple is planning a second child and has a strong desire to have a baby girl. Against the background of long-term unsuccessful attempts, the woman reports psychological tension due to the age factor.<br /><br /><b>Anamnesis</b><br />The first pregnancy occurred spontaneously and proceeded without complications. After childbirth, contraceptives were used for 4 years.\nIn recent years, examinations were mainly carried out for the woman. The man was not examined, although he had recently noted periodic pulling pain in the area of the left testicle, which appeared several years after the birth of the first child.<br /><br /><b>Examination</b><br />Examination of the man\nDuring physical examination, dilation of the veins of the left spermatic cord was detected.\nUltrasound examination of the scrotum with Doppler was performed, which revealed left-sided varicocele, grade III.\nVein diameter up to 3.6 mm\n\nSpermogram (before treatment):\n· Ejaculate volume — 2.4 ml\n· Sperm concentration — 8 million/ml (normal ≥15 million/ml)\n· Total count — 19 million\n· Progressive motility (A+B) — 18% (normal ≥32%)\n· Normal morphology — 2% (normal ≥4%)\n· Sperm DNA fragmentation index — 32% (high)\n\nPronounced impairment of spermatogenesis.\n\nExamination of the woman\n· Height — 168 cm, weight — 71 kg, BMI — 25.2\n· Menstrual cycle regular — 26–28 days\n· Hormonal examination (days 3–5 of the cycle)\n\nPelvic ultrasound:\n· Uterus — without pathology\n· Endometrium corresponds to the phase of the cycle\n· Antral follicle count — 5–6 in each ovary\n· Fallopian tubes — patent<br /><br /><b>Diagnosis</b><br />Secondary infertility due to a pronounced male factor.\n· Left-sided varicocele, grade III\n· Oligoasthenoteratozoospermia\n· Female age-related factor — 38 years, reduced ovarian reserve<br /><br /><b>Treatment</b><br />Microsurgical varicocelectomy using the Marmar method was performed by urologist-andrologist Davit Fanarjyan.\nPostoperative therapy:\n· Antioxidant complex, zinc, selenium, L-carnitine (the patient was prescribed the preparation “Normofertil” (a biologically active supplement that promotes an increase in the number and motility of germ cells))\n· Lifestyle modification\n\nThe woman was under the supervision of a reproductologist and received folic acid and dietary supplements to correct deficiencies (a three-month course of the vitamin and mineral complex “Femofertil” (a biologically active supplement that promotes restoration of the female reproductive system) was prescribed)\n\nDynamics and result\nFollow-up spermogram 6 months after surgery (after 2 spermatogenic cycles):\n· Ejaculate volume — 3.1 ml\n· Sperm concentration — 24 million/ml\n· Total count — 74 million\n· Progressive motility (A+B) — 41%\n· Normal morphology — 5%\n· DNA fragmentation index — 14%\n\nA more than threefold increase in sperm concentration was recorded, as well as significant improvement in motility and morphology.\n\nSeveral months after stabilization of the indicators, the woman achieved natural pregnancy, and a healthy girl was born weighing 4300 g and measuring 53 cm in length.<br /><br /><b>Conclusion</b><br />The ability to conceive or the presence of a child does not guarantee protection from secondary infertility; however, even in such cases, fertility can be restored and the long-awaited joy can be achieved.\nTherefore, it is extremely important that the couple consult specialists as early as possible, and that both the woman and the man undergo examination."
+      }
+    }
+  },
+  "features_section": {
+    "slides": {
+      "feature1": {
+        "title": "Clinic director, PhD, urologist-andrologist David Fanarjyan",
+        "text": "Founder and director of Fanarjyan Clinic, PhD in Medical Sciences, member of Armenian, Russian, and European urological associations, urologist-andrologist Davit Fanarjyan has helped more than 800 families overcome male infertility even in the most challenging cases and become parents."
+      },
+      "feature2": {
+        "title": "Reproductive Board Directly at the Clinic",
+        "text": "By bringing together the best specialists in the field, Fanarjyan Clinic has established a reproductive board directly at the clinic, which includes all the necessary specialists for infertility treatment."
+      },
+      "feature3": {
+        "title": "85% Infertility Treatment Success Rate",
+        "text": "Thanks to working exclusively according to European and American clinical guidelines and implementing the latest methodologies, specialists at Fanarjyan Clinic achieve impressive results, reaching an 85% treatment success rate."
+      },
+      "feature4": {
+        "title": "Specialists with Over 25 Years of Experience",
+        "text": "At Fanarjyan Clinic, experienced specialists with more than 25 years of practice work, having received education abroad and completed professional training in several European countries."
+      },
+      "feature5": {
+        "title": "Experience of a Leading German Clinic in Armenia",
+        "text": "Leading German medical innovation, now in Armenia"
+      }
+    }
+  },
+  "services_cta": {
+    "title": "Learn more about our services"
+  },
+  "blog_section": {
+    "title": "Blog",
+    "read_more": "Read more",
+    "overlay_text": "FANARJYAN CLINIC",
+    "posts": {
+      "post1": {
+        "title": "Medical Innovations in 2025",
+        "text": "In this article, we explain how modern medicine is evolving through the use of cutting-edge technologies and methods.",
+        "modalText": "A detailed overview of medical innovations that are shaping the future of the field and improving the quality of patient care."
+      },
+      "post2": {
+        "title": "New Approaches to Surgery",
+        "text": "Fanarjyan Clinic continues to implement innovative approaches in surgical practice.",
+        "modalText": "This article presents the latest minimally invasive surgical methods that reduce recovery time."
+      },
+      "post3": {
+        "title": "Women’s Health as a Priority",
+        "text": "Our specialists pay special attention to the prevention and treatment of women’s health issues.",
+        "modalText": "Thanks to physicians’ expertise and technological support, we provide high-quality care for every patient."
+      }
+    }
+  },
+  "contact_section": {
+    "title": "Contact Us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Your message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully.",
+      "error": "Failed to send. Please try again."
+    },
+    "info": {
+      "phoneTitle": "Phone",
+      "phoneValue": "+374 10 52 90 06",
+      "phoneValueTel": "+37410529006",
+      "phoneValue2": "+374 94 52 90 06",
+      "emailTitle": "Email",
+      "emailValue": "fanarjyanclinic@gmail.com",
+      "locationTitle": "Address",
+      "locationValue": "Yerevan, Sarmeni 90",
+      "socialTitle": "Social Networks",
+      "phoneValueTel2": "+37494529006"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "terms": "Terms",
+    "privacy": "Privacy Policy"
+  },
+  "about_hero": {
+    "title": "We are by your side in the most difficult moments"
+  },
+  "about_clinic": {
+    "title": "About Us",
+    "desc": "Fanarjyan Clinic was founded on June 1, 2016, by PhD in Medicine, member of Armenian, Russian, and European urological associations, urologist-andrologist Davit Fanarjyan, with one main goal — to give all families the opportunity to overcome infertility, particularly male infertility, and to experience the long-awaited joy of parenthood. The clinic is an outpatient medical center that brings together all the necessary specialists for restoring reproductive health under one roof. We are ready to become your reliable partner throughout the entire treatment journey and to do everything possible to achieve the best possible result. Fanarjyan Clinic — by your side in the most difficult moments\n"
+  },
+  "about_doctor": {
+    "title": "Clinic Director Davit Fanarjyan",
+    "desc": "Welcome to Fanarjyan Clinic. When establishing the clinic, my primary goal was to contribute to improving the level of treatment of male infertility and to create a fundamentally new standard of reproductive medicine in Armenia. In line with this vision, Fanarjyan Clinic has brought together the best specialists in the field and adopted a framework based exclusively on European and American clinical guidelines. We continuously evolve by implementing next-generation technologies and innovative treatment methodologies, made possible through cooperation with a leading German clinic and our many years of experience. Our team spares no effort to ensure that every family has the opportunity to experience the joy of becoming parents."
+  },
+  "about_values": {
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To be the leading reproductive health center in the region, where care and professional excellence come together. We envision a future in which everyone receives not only treatment but also comprehensive support, with confidence in a healthy and happy future.\n"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "desc": "To provide every visitor with high-quality and effective medical care based on modern European standards. Our mission is to restore and preserve the health of men and women and to give them the joy of becoming parents by combining professionalism, many years of experience, and a caring, personalized approach.\n"
+    },
+    "values": {
+      "title": "Our Values",
+      "desc": "Professionalism\nResponsibility\nRespect\nCare\nEmpathy\n"
+    }
+  },
+  "staff": {
+    "title": "Our Staff",
+    "read_more": "Read more",
+    "close": "Close",
+    "doctor1": {
+      "name": "Davit Fanarjyan",
+      "profession": "Urologist-Andrologist\n",
+      "shortText": "Head of Fanarjyan Clinic, PhD in Medical Sciences, AUA, EAU member, 25+ years of experience\n",
+      "modalTitle": "Urologist-Andrologist Davit Fanarjyan",
+      "modalText": "Davit Konstantin Fanarjyan, a urologist-andrologist by specialty, is the founder and director of the Fanarjyan Clinic medical center for male and female sexual health, a PhD in Medical Sciences, with a narrow specialization in the treatment of male infertility.\nEducation\n1988–1995 studied at the Faculty of General Medicine of Yerevan State Medical University named after Mkhitar Heratsi.\n1995–1998 completed clinical residency at the National Institute of Health named after Academician S. Avdalbekyan with a specialization in urology.\n1998–1999 completed professional training at the Department of Urology of the Moscow Medical University named after Semashko.\nCompleted numerous advanced training programs in Germany, Russia, Italy, and other European countries.\n \nMedical practice\n1999–2003 worked as a urologist at the Onco-Urology Department of the V. A. Fanarjyan National Oncology Center.\n2003–2016 worked as a urologist at the Armenia Republican Medical Center.\nIn 2016 founded the Fanarjyan Clinic medical center.\nSince 2017 works as a urologist at Heratsi Hospital Complex No. 1.\nSince 2019 is an Associate Professor at the Department of Gynecology and Reproductology of the National Institute of Health named after Academician S. Avdalbekyan.\n \nScientific work\nIn 2003 defended his PhD dissertation on the topic “Meta-analysis of diagnostic methods and surgical treatment of invasive bladder cancer in the Republic of Armenia.”\nAuthor of more than 20 published scientific papers.\n \nMemberships\nDavit Fanarjyan is a member of:\n \nArmenian Urological Association\nEuropean Association of Urology\nRussian Society of Urology\n \nAwards\nAwarded the “Golden Laurel” prize in the “TRUSTED DOCTOR” category.\n"
+    },
+    "doctor2": {
+      "name": "Armine Sayadyan\n",
+      "profession": "Gynecologist-Reproductologist\n",
+      "shortText": "PhD in Medical Sciences, Armenian representative of the Israeli IVF center “Birth” in Batumi\n",
+      "modalTitle": "Gynecologist-Reproductologist Armine Sayadyan",
+      "modalText": "Armine Gagik Sayadyan, a gynecologist-reproductologist by specialty, is a gynecologist-reproductologist of the multidisciplinary reproductive health medical commission (reproductive board) team at Fanarjyan Clinic.\nEducation\n2007 — Yerevan State Medical University named after Mkhitar Heratsi, specialty “General Medicine.”\n2007–2011 — residency at the National Institute of Health named after S. Avdalbekyan.\nIn 2018 defended her PhD dissertation entitled “Specific features of in vitro fertilization programs in women with low ovarian reserve of various origins” and received the academic degree of PhD in Medical Sciences.\nAuthor of numerous scientific publications.\nParticipated in a number of local and international professional training courses.\n \nProfessional activity\n2019–2020 — New-Med Clinic urological center.\n2017–2019 — lectured in training programs on the implementation of HPV vaccination in Armenia and at the “Electronic Healthcare Academy” foundation.\nSince 2024 — gynecologist-reproductologist of the reproductive board team at Fanarjyan Clinic.\nCurrently also works as a gynecologist-reproductologist at the IVF department of the Margaryan Mother and Child Health Research Center.\nSenior lecturer at the Department of Obstetrics, Gynecology, and Reproductive Medicine of the Center for Professional and Continuing Education of YSMU.\n"
+    },
+    "doctor3": {
+      "name": "Stella Aramyan",
+      "profession": "Gynecologist-Endocrinologist\n",
+      "shortText": "Advanced training at the Research Institute for Mother and Child Health Protection in Moscow\n",
+      "modalTitle": "Gynecologist-Endocrinologist Stella Aramyan",
+      "modalText": "Stella Aramyan, an obstetrician-gynecologist by specialty, is a gynecologist at Fanarjyan Clinic.\n \nEducation\nYerevan State Medical University named after Mkhitar Heratsi (with honors)\nClinical residency — Shengavit Medical Center CJSC\nMikayelyan Institute of Surgery\n \nProfessional activity\n1994–1998 — National Institute of Health named after Academician S. Avdalbekyan, specialty obstetrics and gynecology.\n2000–2020 — Vladislav Avagyan Medical Center, obstetrician-gynecologist.\n2000–2002 — Medical College No. 2, teaching obstetrics and gynecology.\n2007 — advanced training at the Research Institute for Mother and Child Health Protection (Moscow).\nSince 2021 — gynecologist at Fanarjyan Clinic.\n"
+    },
+    "doctor4": {
+      "name": "Eva Avagyan",
+      "profession": "Obstetrician-Gynecologist\n",
+      "shortText": "Specialist with more than 20 years of experience\n",
+      "modalTitle": "Obstetrician-Gynecologist Eva Avagyan",
+      "modalText": "Eva Avagyan, an obstetrician-gynecologist and gynecologist-endocrinologist by specialty, is a gynecologist at Fanarjyan Clinic.\n \nEducation\n1993–1999 — Yerevan State Medical University named after Mkhitar Heratsi.\n2000–2002 — completed a full clinical residency course in Obstetrics and Gynecology.\n \nProfessional activity\n2006–2008 — Alpha Pharm Polyclinic, gynecologist.\n2009–2022 — New-Med Clinic, gynecologist, gynecologist-endocrinologist.\nSince 2023 — advanced training / professional activity at Margaryan Clinic.\nSince 2022 — gynecologist at Fanarjyan Clinic.\n"
+    },
+    "doctor5": {
+      "name": "Mariam Khachatryan",
+      "profession": "Endocrinologist",
+      "shortText": "The first European-certified endocrinologist in Armenia",
+      "modalTitle": "Endocrinologist Mariam Khachatryan",
+      "modalText": "<b>Mariam Khachatryan</b><br/><br/>Mariam Khachatryan, an endocrinologist by specialty, is an endocrinologist at Fanarjyan Clinic, as well as a member of the multidisciplinary reproductive health medical board (reproductive board) of Fanarjyan Clinic as an endocrinologist.<br/>She has many years of clinical experience in the diagnosis and treatment of endocrine diseases and is also actively involved in scientific research activities.<br/><br/><b>Education</b><br/>2009–2014 studied at Yerevan State Medical University after Mkhitar Heratsi.<br/>2014–2016 obtained the Master of Doctor (MD) degree at the same university.<br/>2016–2018 completed clinical residency at the Endocrinology Research Center (Moscow) specializing in endocrinology.<br/>2021–2022 completed professional training in thyroid and neck ultrasound at the University of Debrecen (Hungary).<br/>Since 2025 participant of the “Foundations of Clinical Research” program at Harvard Medical School. In 2025 passed the unified European Board Examination in Endocrinology, DIabets & Metabolism, becoming the first endocrinologist with European qualification in the Republic of Armenia.<br/><br/><b>Medical Activity</b><br/>2014–2015 worked at Yerevan State Medical University as a junior researcher.<br/>2016–2017 worked at “Emergency Aid” CJSC as a general practitioner.<br/>2020–2024 worked at “Dilanyan Clinic” (Moscow) as an endocrinologist.<br/><br/>2023-2024 worked at the reproductive health clinic “Babies from the test tube”.<br/>Since 2024 works at Fanarjyan Clinic as an endocrinologist performing outpatient consultations, thyroid ultrasound examinations, fine needle aspiration biopsy (FNA) and clinical studies.<br/><br/><b>Scientific Activity and Publications</b><br/>Author and co-author of a number of scientific articles published in international journals dedicated to autoimmune thyroid diseases, calcium metabolism and thyroid cancer.<br/>Presented reports and poster presentations at international congresses and professional conferences in Oxford, Moscow, Tallinn, Bucharest and other cities.<br/><br/><b>Memberships</b><br/>Mariam Khachatryan is:<br/>Member of the European Society of Endocrinology (ESE)<br/><br/>Member of the European Thyroid Association (ETA)<br/><br/>Member of the European Neuroendocrine Association (ENEA)<br/><br/>Member of the European Association for the Study of Diabetes (EASD)"
+    },
+    "doctor6": {
+      "name": "Lilia Mikayelyan",
+      "profession": "Marketing Specialist",
+      "shortText": "..",
+      "modalTitle": "Marketing Specialist Lilia Mikayelyan",
+      "modalText": "Doctor Hovhannisyan is known for her patience and meticulous professional approach. She values sincere communication and individualized treatment for each patient."
+    },
+    "doctor7": {
+      "name": "Irina Ananyan",
+      "profession": "Reception Staff",
+      "shortText": "By profession, a psychologist",
+      "modalTitle": "Reception Staff Irina Ananyan",
+      "modalText": "Doctor Hovhannisyan is known for her patience and meticulous professional approach. She values sincere communication and individualized treatment for each patient."
+    }
+  },
+  "servicesPage": {
+    "read_more": "Read more",
+    "reproductology": {
+      "title": "Reproductology",
+      "text": "Our reproductive department provides modern diagnosis and treatment of infertility by applying the latest technologies and an individualized approach."
+    },
+    "urology": {
+      "title": "Urology",
+      "text": "We provide diagnosis and treatment of genitourinary system diseases using modern methods and a caring approach."
+    },
+    "radiology": {
+      "title": "Radiology",
+      "text": "Our radiology department is equipped with high-quality imaging technology, ensuring fast and accurate diagnostics."
+    }
+  },
+  "prices": {
+    "title": "Services and Prices",
+    "search_placeholder": "Search by service name",
+    "search_results": "Search results",
+    "no_results": "No matching services were found."
+  },
+  "services_page_title": "Our Services"
+}
